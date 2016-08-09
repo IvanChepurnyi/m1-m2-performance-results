@@ -1,0 +1,7 @@
+{
+  "name": "m2vsm1",
+  "short_name": "m2vsm1",
+  "description": "Magento 2 vs Magento 1 Performance Report",
+  "start_url": "/",
+  "display": "standalone"
+}
