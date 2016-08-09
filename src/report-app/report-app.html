@@ -1,0 +1,340 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
+<link rel="import" href="../../bower_components/paper-header-panel/paper-header-panel.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
+<link rel="import" href="../../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../../bower_components/paper-checkbox/paper-checkbox.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-label/iron-label.html">
+<link rel="import" href="../../bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
+<link rel="import" href="../../bower_components/app-layout/app-drawer/app-drawer.html">
+<link rel="import" href="../../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/chart-elements/chart-bar.html">
+
+
+<dom-module id="report-app">
+
+
+  <style include="iron-flex iron-flex-alignment"></style>
+
+
+  <template>
+    <style>
+      app-toolbar {
+        background-color: #4285f4;
+        color: #fff;
+      }
+      app-drawer {
+        --app-drawer-scrim-background: rgba(0, 0, 100, 0.8);
+        --app-drawer-content-container: {
+          background-color: #B0BEC5;
+        };
+
+        --app-drawer-width: 400px;
+
+      }
+
+
+      .wide {
+        width: 100%;
+      }
+
+      .wide {
+        padding: 15px;
+      }
+
+      .wide .title {
+        margin-bottom: 15px;
+      }
+
+      .wide paper-checkbox {
+        margin-left: 10px;
+        width: 160px;
+      }
+    </style>
+    <iron-ajax auto
+               url="[[url]]"
+               handle-as="json"
+               on-response="fillData"></iron-ajax>
+
+    <app-toolbar>
+      <paper-icon-button icon="menu" onclick="appDrawer.toggle()"></paper-icon-button>
+      <div class="title">[[heading]]</div>
+    </app-toolbar>
+
+    <paper-card class="wide" heading="Detailed Reports">
+      <template is="dom-repeat" items="{{filteredRecords}}" as="report">
+        <a href="[[prefix]][[report.path]]"><paper-item>[[report.fullLegend]]</paper-item></a>
+      </template>
+    </paper-card>
+
+    <template is="dom-repeat" items="{{globalReports}}" as="report">
+      <paper-card class="wide" heading="{{report.label}}">
+        <chart-bar class="wide" data="{{report.data}}"></chart-bar>
+      </paper-card>
+    </template>
+
+    <template is="dom-repeat" items="{{pageReports}}" as="report">
+      <paper-card class="wide" heading="{{report.label}}">
+        <chart-bar class="wide" data="{{report.data}}"></chart-bar>
+      </paper-card>
+    </template>
+
+    <app-drawer slidable id="appDrawer" >
+
+        <template is="dom-repeat" items="{{filters}}" as="filter">
+          <template is="dom-if" if="{{filter.multiple}}">
+            <paper-card class="wide">
+              <div class="title">[[filter.label]]</div>
+              <div class="layout horizontal">
+                <template is="dom-repeat" items="{{filter.selections}}" as="option">
+                  <paper-checkbox value="[[option]]" checked="{{option.checked}}" on-change="_filterChange">[[option.option]]</paper-checkbox>
+                </template>
+              </div>
+            </paper-card>
+          </template>
+        </template>
+
+      <template is="dom-repeat" items="{{filters}}" as="filter">
+        <template is="dom-if" if="{{!filter.multiple}}">
+          <paper-card class="wide">
+            <paper-dropdown-menu label="[[filter.label]]">
+              <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{filter.selection}}" on-iron-select="_filterChange">
+                <template is="dom-repeat" items="{{filter.options}}" as="option">
+                  <paper-item value="[[option]]">[[option]]</paper-item>
+                </template>
+              </paper-listbox>
+            </paper-dropdown-menu>
+          </paper-card>
+        </template>
+      </template>
+    </app-drawer>
+
+
+  </template>
+  <script>
+    Polymer({
+      is: 'report-app',
+      properties: {
+        heading: String,
+        url: String,
+        prefix: String,
+        globalReports: {
+          type: Array,
+          notify: true,
+          value: []
+        },
+        pageReports: {
+          type: Array,
+          notify: true,
+          value: []
+        },
+        reportData: {
+          type: Object,
+          notify: true,
+          value: {}
+        },
+        filteredRecords: {
+          type: Array,
+          notify: true,
+          value: '_updateReports'
+        },
+        filters: {
+          type: Array,
+          notify: true,
+          value: [],
+          observer: '_filterChange'
+        }
+      },
+
+      fillData: function (data) {
+        var dataResults = data.target.lastResponse;
+
+        this.updateFilters(dataResults);
+        this.set('reportData', dataResults);
+        this._filterChange();
+      },
+
+      updateFilters: function (dataResults) {
+        var filters = [];
+
+        for (var filterCode in dataResults.filters) {
+          var filter = dataResults.filters[filterCode];
+          filter.code = filterCode;
+          if (filter.multiple) {
+            filter.selections = [];
+
+            for (var i = 0, l = filter.options.length; i < l; i++) {
+              filter.selections.push({
+                option: filter.options[i],
+                checked: (filter.selection.indexOf(filter.options[i]) !== -1)
+              });
+            }
+          }
+
+          filters.push(filter);
+        }
+
+        this.set('filters', filters);
+      },
+
+      _updateReports: function () {
+        if (this.reportData.aggregateReport) {
+          this._updateGlobalReports();
+        }
+
+        if (this.reportData.pageReport) {
+          this._updatePageReports();
+        }
+
+      },
+
+      _updateGlobalReports: function () {
+        var reports = [];
+
+        for (var reportIndex in this.reportData.aggregateReport) {
+          var reportConfig = this.reportData.aggregateReport[reportIndex];
+          var report = {
+            data: this._prepareChartData(
+                    reportConfig.axis,
+                    this.filteredRecords,
+                    'aggregateReport.' + reportConfig.dataCode
+            ),
+            label: reportConfig.label
+          };
+
+          reports.push(report);
+        }
+
+        this.set('globalReports', reports);
+      },
+
+      _updatePageReports: function () {
+        var reports = [];
+
+        for (var reportIndex in this.reportData.pageReport) {
+          var reportConfig = this.reportData.pageReport[reportIndex];
+          for (var pageCode in this.reportData.pages) {
+            var report = {
+              data: this._prepareChartData(
+                      reportConfig.axis,
+                      this.filteredRecords,
+                      'pageReport.' + reportConfig.dataCode + '.' + pageCode
+              ),
+              label: reportConfig.label.replace("#Page", this.reportData.pages[pageCode])
+            };
+
+            reports.push(report);
+          }
+        }
+
+        this.set('pageReports', reports);
+      },
+
+      _filterChange: function () {
+        var filteredReports = [];
+
+        var existingLegends = [];
+        var fullLabels = false;
+
+        for (var reportIndex in this.reportData.reports) {
+          var report = this.reportData.reports[reportIndex];
+          if (!this._validateFilterSelected(report.filter)) {
+            continue;
+          }
+
+          filteredReports.push(report);
+          report.fullLegend = report.legend;
+          if (existingLegends.indexOf(report.legend)) {
+            fullLabels = true;
+          }
+          existingLegends.push(report.legend);
+        }
+
+        for (var reportIndex in filteredReports) {
+          var report = filteredReports[reportIndex];
+
+          var additionalInfo={data_set: 'Set: ', image_cache: 'Image: ', php: 'PHP: '};
+          var additionalLegend = [];
+          for (var filter in additionalInfo) {
+            additionalLegend.push(additionalInfo[filter] + report.filter[filter]);
+          }
+
+          report.fullLegend += ' (' + additionalLegend.join(', ') + ')';
+        }
+
+        this.set('filteredRecords', filteredReports);
+        this._updateReports();
+      },
+      _validateFilterSelected: function (availableFilters) {
+        for (var filterIndex in this.filters) {
+          if (!availableFilters[this.filters[filterIndex].code]) {
+            return false;
+          }
+
+          if (this.filters[filterIndex].multiple) {
+            var found = false;
+            var selections = this.filters[filterIndex].selections;
+            for (var selectionIndex in selections) {
+              if (availableFilters[this.filters[filterIndex].code] == selections[selectionIndex].option
+                      && selections[selectionIndex].checked) {
+                found = true;
+              }
+            }
+
+            if (!found) {
+              return false;
+            }
+          } else if(this.filters[filterIndex].selection != availableFilters[this.filters[filterIndex].code]) {
+            return false;
+          }
+        }
+
+        return true;
+      },
+      _prepareChartData: function (axis, records, propertyPath) {
+        var data = {
+          labels: axis,
+          datasets: []
+        };
+
+        records = records.sort(function (a, b) {
+          return a.position - b.position;
+        });
+
+
+        for (var reportIndex in records) {
+          var report = records[reportIndex];
+          var legend = report.fullLegend;
+
+          data.datasets.push({
+            label: legend,
+            backgroundColor: report.color,
+            data: this.valueFetch(report, propertyPath)
+          })
+        }
+
+        return data;
+      },
+      valueFetch: function (obj, path) {
+        var properties = path.split('.');
+
+        for (var propertyIndex in properties) {
+          if (obj[properties[propertyIndex]] === undefined) {
+            return null;
+          }
+
+          obj = obj[properties[propertyIndex]]
+        }
+
+        return obj;
+      }
+    })
+  </script>
+</dom-module>
