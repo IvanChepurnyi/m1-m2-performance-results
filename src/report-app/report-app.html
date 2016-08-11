@@ -291,6 +291,7 @@
         var existingLegends = [];
         var fullLabels = false;
         var uniqueFilters = [];
+
         var additionalInfo={data_set: 'Set: ', image_cache: 'Image: ', php: 'PHP: '};
 
         for (var reportIndex in this.reportData.reports) {
@@ -308,12 +309,12 @@
           }
 
           for (var filter in additionalInfo) {
-            if (!uniqueFilters[filter]) {
-              uniqueFilters[filter] = {};
-              uniqueFilters[filter][report.filter[filter]] = 0;
+            if (!uniqueFilters[report.legend]) {
+              uniqueFilters[report.legend] = {};
+              uniqueFilters[report.legend][filter] = 0;
             }
 
-            uniqueFilters[filter][report.filter[filter]] += 1;
+            uniqueFilters[report.legend][filter] += 1;
           }
 
           existingLegends.push(report.legend);
@@ -326,7 +327,7 @@
 
           for (var filter in additionalInfo) {
             additionalLabels.push(additionalInfo[filter] + report.filter[filter]);
-            if (uniqueFilters[filter][report.filter[filter]] < filteredReports.length) {
+            if (uniqueFilters[report.legend][filter] > 0) {
               additionalLegends.push(report.filter[filter])
             }
           }
@@ -339,6 +340,7 @@
 
         this.set('filteredRecords', filteredReports);
         this._updateReports();
+        this._updatePage();
       },
       _validateFilterSelected: function (availableFilters) {
         for (var filterIndex in this.filters) {
