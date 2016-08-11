@@ -1,21 +1,21 @@
 {
     "legends": {
-        "Magento 1.9.2.4 (MageCore Original)": "pink",
-        "Magento 1.9.2.4 (Default Behaviour)": "rgb(253, 174, 107)",
-        "Magento 1.9.2.4 (ORO AJAX)": "rgb(253, 208, 162)",
-        "Magento 2.0.4 (MageCore Original)": "red",
-        "Magento 2.0.2 (Default Bahaviour)": "rgb(252, 141, 89)",
-        "Magento 2.0.4 (Default Bahaviour)": "rgb(239, 101, 72)",
-        "Magento 2.0.7 (Default Bahaviour)": "rgb(215, 48, 31)",
-        "Magento 2.1.0 (Default Bahaviour)": "rgb(153, 0, 0)",
-        "Magento 2.0.2 (No AJAX Reviews)": "rgb(251, 141, 60)",
-        "Magento 2.0.4 (No AJAX Reviews)": "rgb(241, 105, 19)",
-        "Magento 2.0.7 (No AJAX Reviews)": "rgb(217, 72, 1)",
-        "Magento 2.1.0 (No AJAX Reviews)": "rgb(140, 45, 4)",
-        "Magento 2.0.2 (Optimized)": "rgb(158, 202, 225)",
-        "Magento 2.0.4 (Optimized)": "rgb(107, 174, 214)",
-        "Magento 2.0.7 (Optimized)": "rgb(66, 146, 198)",
-        "Magento 2.1.0 (Optimized)": "rgb(33, 113, 181)"
+        "1.9.2.4 MageCore": "pink",
+        "1.9.2.4 Default": "rgb(253, 174, 107)",
+        "1.9.2.4 ORO": "rgb(253, 208, 162)",
+        "2.0.4 MageCore": "red",
+        "2.0.2 Default": "rgb(252, 141, 89)",
+        "2.0.4 Default": "rgb(239, 101, 72)",
+        "2.0.7 Default": "rgb(215, 48, 31)",
+        "2.1.0 Default": "rgb(153, 0, 0)",
+        "2.0.2 No Reviews": "rgb(251, 141, 60)",
+        "2.0.4 No Reviews": "rgb(241, 105, 19)",
+        "2.0.7 No Reviews": "rgb(217, 72, 1)",
+        "2.1.0 No Reviews": "rgb(140, 45, 4)",
+        "2.0.2 OptConf": "rgb(158, 202, 225)",
+        "2.0.4 OptConf": "rgb(107, 174, 214)",
+        "2.0.7 OptConf": "rgb(66, 146, 198)",
+        "2.1.0 OptConf": "rgb(33, 113, 181)"
     },
     "filters": {
         "version": {
@@ -184,7 +184,7 @@
         {
             "code": "magento192-default-u10-d10-prewarm-images",
             "path": "magento192-default-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -382,7 +382,7 @@
         {
             "code": "magento192-default-u10-d5-prewarm-images",
             "path": "magento192-default-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -580,7 +580,7 @@
         {
             "code": "magento192-default-u20-d10-prewarm-images",
             "path": "magento192-default-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -778,7 +778,7 @@
         {
             "code": "magento192-default-u20-d5-prewarm-images",
             "path": "magento192-default-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -976,7 +976,7 @@
         {
             "code": "magento192-large-u10-d10-prewarm-images",
             "path": "magento192-large-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -1174,7 +1174,7 @@
         {
             "code": "magento192-large-u10-d5-prewarm-images",
             "path": "magento192-large-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -1372,7 +1372,7 @@
         {
             "code": "magento192-large-u20-d10-prewarm-images",
             "path": "magento192-large-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -1570,7 +1570,7 @@
         {
             "code": "magento192-large-u20-d5-prewarm-images",
             "path": "magento192-large-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -1768,7 +1768,7 @@
         {
             "code": "magento192-original-u10-d10-prewarm-images",
             "path": "magento192-original-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -1966,7 +1966,7 @@
         {
             "code": "magento192-original-u20-d10-prewarm-images",
             "path": "magento192-original-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (Default Behaviour)",
+            "legend": "1.9.2.4 Default",
             "color": "rgb(253, 174, 107)",
             "position": 1,
             "filter": {
@@ -2164,7 +2164,7 @@
         {
             "code": "magento192oro-default-u10-d10-prewarm-images",
             "path": "magento192oro-default-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -2362,7 +2362,7 @@
         {
             "code": "magento192oro-default-u10-d5-prewarm-images",
             "path": "magento192oro-default-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -2560,7 +2560,7 @@
         {
             "code": "magento192oro-default-u20-d10-prewarm-images",
             "path": "magento192oro-default-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -2758,7 +2758,7 @@
         {
             "code": "magento192oro-default-u20-d5-prewarm-images",
             "path": "magento192oro-default-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -2956,7 +2956,7 @@
         {
             "code": "magento192oro-large-u10-d10-prewarm-images",
             "path": "magento192oro-large-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -3154,7 +3154,7 @@
         {
             "code": "magento192oro-large-u10-d5-prewarm-images",
             "path": "magento192oro-large-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -3352,7 +3352,7 @@
         {
             "code": "magento192oro-large-u20-d10-prewarm-images",
             "path": "magento192oro-large-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -3550,7 +3550,7 @@
         {
             "code": "magento192oro-large-u20-d5-prewarm-images",
             "path": "magento192oro-large-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -3748,7 +3748,7 @@
         {
             "code": "magento192oro-original-u10-d10-prewarm-images",
             "path": "magento192oro-original-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -3946,7 +3946,7 @@
         {
             "code": "magento192oro-original-u20-d10-prewarm-images",
             "path": "magento192oro-original-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 1.9.2.4 (ORO AJAX)",
+            "legend": "1.9.2.4 ORO",
             "color": "rgb(253, 208, 162)",
             "position": 2,
             "filter": {
@@ -4144,7 +4144,7 @@
         {
             "code": "magento202-default-u10-d10-opt-prewarm-images",
             "path": "magento202-default-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -4342,7 +4342,7 @@
         {
             "code": "magento202-default-u10-d10-prewarm-images",
             "path": "magento202-default-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -4540,7 +4540,7 @@
         {
             "code": "magento202-default-u10-d5-opt-prewarm-images",
             "path": "magento202-default-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -4738,7 +4738,7 @@
         {
             "code": "magento202-default-u10-d5-prewarm-images",
             "path": "magento202-default-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -4936,7 +4936,7 @@
         {
             "code": "magento202-default-u20-d10-opt-prewarm-images",
             "path": "magento202-default-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -5134,7 +5134,7 @@
         {
             "code": "magento202-default-u20-d10-prewarm-images",
             "path": "magento202-default-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -5332,7 +5332,7 @@
         {
             "code": "magento202-default-u20-d5-opt-prewarm-images",
             "path": "magento202-default-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -5530,7 +5530,7 @@
         {
             "code": "magento202-default-u20-d5-prewarm-images",
             "path": "magento202-default-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -5728,7 +5728,7 @@
         {
             "code": "magento202-large-u10-d10-opt-prewarm-images",
             "path": "magento202-large-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -5926,7 +5926,7 @@
         {
             "code": "magento202-large-u10-d10-prewarm-images",
             "path": "magento202-large-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -6124,7 +6124,7 @@
         {
             "code": "magento202-large-u10-d5-opt-prewarm-images",
             "path": "magento202-large-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -6322,7 +6322,7 @@
         {
             "code": "magento202-large-u10-d5-prewarm-images",
             "path": "magento202-large-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -6520,7 +6520,7 @@
         {
             "code": "magento202-large-u20-d10-opt-prewarm-images",
             "path": "magento202-large-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -6718,7 +6718,7 @@
         {
             "code": "magento202-large-u20-d10-prewarm-images",
             "path": "magento202-large-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -6916,7 +6916,7 @@
         {
             "code": "magento202-large-u20-d5-opt-prewarm-images",
             "path": "magento202-large-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -7114,7 +7114,7 @@
         {
             "code": "magento202-large-u20-d5-prewarm-images",
             "path": "magento202-large-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -7312,7 +7312,7 @@
         {
             "code": "magento202-original-u10-d10-opt-prewarm-images",
             "path": "magento202-original-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -7510,7 +7510,7 @@
         {
             "code": "magento202-original-u10-d10-prewarm-images",
             "path": "magento202-original-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -7708,7 +7708,7 @@
         {
             "code": "magento202-original-u10-d5-opt-prewarm-images",
             "path": "magento202-original-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -7906,7 +7906,7 @@
         {
             "code": "magento202-original-u20-d10-opt-prewarm-images",
             "path": "magento202-original-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -8104,7 +8104,7 @@
         {
             "code": "magento202-original-u20-d10-prewarm-images",
             "path": "magento202-original-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (Default Bahaviour)",
+            "legend": "2.0.2 Default",
             "color": "rgb(252, 141, 89)",
             "position": 4,
             "filter": {
@@ -8302,7 +8302,7 @@
         {
             "code": "magento202-original-u20-d5-opt-prewarm-images",
             "path": "magento202-original-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.2 (No AJAX Reviews)",
+            "legend": "2.0.2 No Reviews",
             "color": "rgb(251, 141, 60)",
             "position": 8,
             "filter": {
@@ -8500,7 +8500,7 @@
         {
             "code": "magento204-default-u10-d10-opt-prewarm-images",
             "path": "magento204-default-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -8698,7 +8698,7 @@
         {
             "code": "magento204-default-u10-d10-prewarm-images",
             "path": "magento204-default-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -8896,7 +8896,7 @@
         {
             "code": "magento204-default-u10-d5-opt-prewarm-images",
             "path": "magento204-default-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -9094,7 +9094,7 @@
         {
             "code": "magento204-default-u10-d5-prewarm-images",
             "path": "magento204-default-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -9292,7 +9292,7 @@
         {
             "code": "magento204-default-u20-d10-opt-prewarm-images",
             "path": "magento204-default-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -9490,7 +9490,7 @@
         {
             "code": "magento204-default-u20-d10-prewarm-images",
             "path": "magento204-default-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -9688,7 +9688,7 @@
         {
             "code": "magento204-default-u20-d5-opt-prewarm-images",
             "path": "magento204-default-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -9886,7 +9886,7 @@
         {
             "code": "magento204-default-u20-d5-prewarm-images",
             "path": "magento204-default-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -10084,7 +10084,7 @@
         {
             "code": "magento204-large-u10-d10-opt-prewarm-images",
             "path": "magento204-large-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -10282,7 +10282,7 @@
         {
             "code": "magento204-large-u10-d10-prewarm-images",
             "path": "magento204-large-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -10480,7 +10480,7 @@
         {
             "code": "magento204-large-u10-d5-opt-prewarm-images",
             "path": "magento204-large-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -10678,7 +10678,7 @@
         {
             "code": "magento204-large-u10-d5-prewarm-images",
             "path": "magento204-large-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -10876,7 +10876,7 @@
         {
             "code": "magento204-large-u20-d10-opt-prewarm-images",
             "path": "magento204-large-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -11074,7 +11074,7 @@
         {
             "code": "magento204-large-u20-d10-prewarm-images",
             "path": "magento204-large-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -11272,7 +11272,7 @@
         {
             "code": "magento204-large-u20-d5-opt-prewarm-images",
             "path": "magento204-large-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -11470,7 +11470,7 @@
         {
             "code": "magento204-large-u20-d5-prewarm-images",
             "path": "magento204-large-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -11668,7 +11668,7 @@
         {
             "code": "magento204-original-u10-d10-opt-prewarm-images",
             "path": "magento204-original-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -11866,7 +11866,7 @@
         {
             "code": "magento204-original-u10-d10-prewarm-images",
             "path": "magento204-original-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -12064,7 +12064,7 @@
         {
             "code": "magento204-original-u10-d5-opt-prewarm-images",
             "path": "magento204-original-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -12262,7 +12262,7 @@
         {
             "code": "magento204-original-u20-d10-opt-prewarm-images",
             "path": "magento204-original-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -12460,7 +12460,7 @@
         {
             "code": "magento204-original-u20-d10-prewarm-images",
             "path": "magento204-original-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (Default Bahaviour)",
+            "legend": "2.0.4 Default",
             "color": "rgb(239, 101, 72)",
             "position": 5,
             "filter": {
@@ -12658,7 +12658,7 @@
         {
             "code": "magento204-original-u20-d5-opt-prewarm-images",
             "path": "magento204-original-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.4 (No AJAX Reviews)",
+            "legend": "2.0.4 No Reviews",
             "color": "rgb(241, 105, 19)",
             "position": 9,
             "filter": {
@@ -12856,7 +12856,7 @@
         {
             "code": "magento207-default-u10-d10-opt-prewarm-images",
             "path": "magento207-default-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -13054,7 +13054,7 @@
         {
             "code": "magento207-default-u10-d10-prewarm-images",
             "path": "magento207-default-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -13252,7 +13252,7 @@
         {
             "code": "magento207-default-u10-d5-opt-prewarm-images",
             "path": "magento207-default-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -13450,7 +13450,7 @@
         {
             "code": "magento207-default-u10-d5-prewarm-images",
             "path": "magento207-default-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -13648,7 +13648,7 @@
         {
             "code": "magento207-default-u20-d10-opt-prewarm-images",
             "path": "magento207-default-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -13846,7 +13846,7 @@
         {
             "code": "magento207-default-u20-d10-prewarm-images",
             "path": "magento207-default-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -14044,7 +14044,7 @@
         {
             "code": "magento207-default-u20-d5-opt-prewarm-images",
             "path": "magento207-default-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -14242,7 +14242,7 @@
         {
             "code": "magento207-default-u20-d5-prewarm-images",
             "path": "magento207-default-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -14440,7 +14440,7 @@
         {
             "code": "magento207-large-u10-d10-opt-prewarm-images",
             "path": "magento207-large-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -14638,7 +14638,7 @@
         {
             "code": "magento207-large-u10-d10-prewarm-images",
             "path": "magento207-large-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -14836,7 +14836,7 @@
         {
             "code": "magento207-large-u10-d5-opt-prewarm-images",
             "path": "magento207-large-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -15034,7 +15034,7 @@
         {
             "code": "magento207-large-u10-d5-prewarm-images",
             "path": "magento207-large-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -15232,7 +15232,7 @@
         {
             "code": "magento207-large-u20-d10-opt-prewarm-images",
             "path": "magento207-large-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -15430,7 +15430,7 @@
         {
             "code": "magento207-large-u20-d10-prewarm-images",
             "path": "magento207-large-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -15628,7 +15628,7 @@
         {
             "code": "magento207-large-u20-d5-opt-prewarm-images",
             "path": "magento207-large-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -15826,7 +15826,7 @@
         {
             "code": "magento207-large-u20-d5-prewarm-images",
             "path": "magento207-large-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -16024,7 +16024,7 @@
         {
             "code": "magento207-original-u10-d10-opt-prewarm-images",
             "path": "magento207-original-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -16222,7 +16222,7 @@
         {
             "code": "magento207-original-u10-d10-prewarm-images",
             "path": "magento207-original-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -16420,7 +16420,7 @@
         {
             "code": "magento207-original-u10-d5-opt-prewarm-images",
             "path": "magento207-original-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -16618,7 +16618,7 @@
         {
             "code": "magento207-original-u20-d10-opt-prewarm-images",
             "path": "magento207-original-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -16816,7 +16816,7 @@
         {
             "code": "magento207-original-u20-d10-prewarm-images",
             "path": "magento207-original-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (Default Bahaviour)",
+            "legend": "2.0.7 Default",
             "color": "rgb(215, 48, 31)",
             "position": 6,
             "filter": {
@@ -17014,7 +17014,7 @@
         {
             "code": "magento207-original-u20-d5-opt-prewarm-images",
             "path": "magento207-original-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.0.7 (No AJAX Reviews)",
+            "legend": "2.0.7 No Reviews",
             "color": "rgb(217, 72, 1)",
             "position": 10,
             "filter": {
@@ -17212,7 +17212,7 @@
         {
             "code": "magento210-default-u10-d10-opt-prewarm-images",
             "path": "magento210-default-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -17410,7 +17410,7 @@
         {
             "code": "magento210-default-u10-d10-prewarm-images",
             "path": "magento210-default-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -17608,7 +17608,7 @@
         {
             "code": "magento210-default-u10-d5-opt-prewarm-images",
             "path": "magento210-default-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -17806,7 +17806,7 @@
         {
             "code": "magento210-default-u10-d5-prewarm-images",
             "path": "magento210-default-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -18004,7 +18004,7 @@
         {
             "code": "magento210-default-u20-d10-opt-prewarm-images",
             "path": "magento210-default-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -18202,7 +18202,7 @@
         {
             "code": "magento210-default-u20-d10-prewarm-images",
             "path": "magento210-default-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -18400,7 +18400,7 @@
         {
             "code": "magento210-default-u20-d5-opt-prewarm-images",
             "path": "magento210-default-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -18598,7 +18598,7 @@
         {
             "code": "magento210-default-u20-d5-prewarm-images",
             "path": "magento210-default-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -18796,7 +18796,7 @@
         {
             "code": "magento210-large-u10-d10-opt-prewarm-images",
             "path": "magento210-large-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -18994,7 +18994,7 @@
         {
             "code": "magento210-large-u10-d10-prewarm-images",
             "path": "magento210-large-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -19192,7 +19192,7 @@
         {
             "code": "magento210-large-u10-d5-opt-prewarm-images",
             "path": "magento210-large-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -19390,7 +19390,7 @@
         {
             "code": "magento210-large-u10-d5-prewarm-images",
             "path": "magento210-large-u10-d5-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -19588,7 +19588,7 @@
         {
             "code": "magento210-large-u20-d10-opt-prewarm-images",
             "path": "magento210-large-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -19786,7 +19786,7 @@
         {
             "code": "magento210-large-u20-d10-prewarm-images",
             "path": "magento210-large-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -19984,7 +19984,7 @@
         {
             "code": "magento210-large-u20-d5-opt-prewarm-images",
             "path": "magento210-large-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -20182,7 +20182,7 @@
         {
             "code": "magento210-large-u20-d5-prewarm-images",
             "path": "magento210-large-u20-d5-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -20380,7 +20380,7 @@
         {
             "code": "magento210-original-u10-d10-opt-prewarm-images",
             "path": "magento210-original-u10-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -20578,7 +20578,7 @@
         {
             "code": "magento210-original-u10-d10-prewarm-images",
             "path": "magento210-original-u10-d10-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -20776,7 +20776,7 @@
         {
             "code": "magento210-original-u10-d5-opt-prewarm-images",
             "path": "magento210-original-u10-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -20974,7 +20974,7 @@
         {
             "code": "magento210-original-u20-d10-opt-prewarm-images",
             "path": "magento210-original-u20-d10-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -21172,7 +21172,7 @@
         {
             "code": "magento210-original-u20-d10-prewarm-images",
             "path": "magento210-original-u20-d10-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (Default Bahaviour)",
+            "legend": "2.1.0 Default",
             "color": "rgb(153, 0, 0)",
             "position": 7,
             "filter": {
@@ -21370,7 +21370,7 @@
         {
             "code": "magento210-original-u20-d5-opt-prewarm-images",
             "path": "magento210-original-u20-d5-opt-prewarm-images/index.html",
-            "legend": "Magento 2.1.0 (No AJAX Reviews)",
+            "legend": "2.1.0 No Reviews",
             "color": "rgb(140, 45, 4)",
             "position": 11,
             "filter": {
@@ -21568,7 +21568,7 @@
         {
             "code": "original-magento192oro-original-u20-d10-coldrun",
             "path": "original-magento192oro-original-u20-d10-coldrun/index.html",
-            "legend": "Magento 1.9.2.4 (MageCore Original)",
+            "legend": "1.9.2.4 MageCore",
             "color": "pink",
             "position": 0,
             "filter": {
@@ -21766,7 +21766,7 @@
         {
             "code": "original-magento192oro-original-u20-d10-php56-coldrun",
             "path": "original-magento192oro-original-u20-d10-php56-coldrun/index.html",
-            "legend": "Magento 1.9.2.4 (MageCore Original)",
+            "legend": "1.9.2.4 MageCore",
             "color": "pink",
             "position": 0,
             "filter": {
@@ -21964,7 +21964,7 @@
         {
             "code": "original-magento204-original-u20-d10-coldrun",
             "path": "original-magento204-original-u20-d10-coldrun/index.html",
-            "legend": "Magento 2.0.4 (MageCore Original)",
+            "legend": "2.0.4 MageCore",
             "color": "red",
             "position": 3,
             "filter": {
@@ -22162,7 +22162,7 @@
         {
             "code": "original-magento204-original-u20-d10-php56-coldrun",
             "path": "original-magento204-original-u20-d10-php56-coldrun/index.html",
-            "legend": "Magento 2.0.4 (MageCore Original)",
+            "legend": "2.0.4 MageCore",
             "color": "red",
             "position": 3,
             "filter": {
