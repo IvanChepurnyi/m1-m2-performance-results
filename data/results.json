@@ -103,6 +103,18 @@
                 "7.0",
                 "5.6"
             ]
+        },
+        "innodb": {
+            "label": "InnoDB",
+            "multiple": true,
+            "selection": [
+                "8G",
+                "256M"
+            ],
+            "options": [
+                "8G",
+                "256M"
+            ]
         }
     },
     "pages": {
@@ -195,7 +207,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -402,6 +415,226 @@
             }
         },
         {
+            "code": "magento192-default-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento192-default-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "1.9.2.4 Default",
+            "color": "rgb(253, 174, 107)",
+            "position": 1,
+            "filter": {
+                "version": "1.9.2.4",
+                "configuration": "1.9.x Default",
+                "data_set": "Default",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    984,
+                    242,
+                    706,
+                    759,
+                    452,
+                    547,
+                    107,
+                    105,
+                    105
+                ],
+                "response": [
+                    81,
+                    29,
+                    184,
+                    199,
+                    142,
+                    175,
+                    207,
+                    286,
+                    79
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        3,
+                        4,
+                        938,
+                        1158,
+                        1645,
+                        81
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        4,
+                        4,
+                        8,
+                        981,
+                        1124,
+                        29
+                    ],
+                    "product_page_simple": [
+                        2,
+                        190,
+                        213,
+                        268,
+                        350,
+                        544,
+                        184
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        224,
+                        253,
+                        303,
+                        388,
+                        1334,
+                        199
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        67,
+                        116,
+                        187,
+                        232,
+                        323,
+                        784,
+                        142
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        92,
+                        153,
+                        226,
+                        270,
+                        312,
+                        713,
+                        175
+                    ],
+                    "checkout_page": [
+                        138,
+                        193,
+                        231,
+                        323,
+                        408,
+                        416,
+                        207
+                    ],
+                    "checkout_place_order": [
+                        181,
+                        266,
+                        339,
+                        417,
+                        503,
+                        509,
+                        286
+                    ],
+                    "checkout_success": [
+                        50,
+                        70,
+                        84,
+                        152,
+                        182,
+                        272,
+                        79
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        93,
+                        6,
+                        1
+                    ],
+                    "category_page_filtered": [
+                        98,
+                        2,
+                        0
+                    ],
+                    "product_page_simple": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "product_page_configurable": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        916,
+                        61,
+                        7
+                    ],
+                    "category_page_filtered": [
+                        236,
+                        6,
+                        0
+                    ],
+                    "product_page_simple": [
+                        706,
+                        0,
+                        0
+                    ],
+                    "product_page_configurable": [
+                        757,
+                        1,
+                        1
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        452,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        547,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        107,
+                        0,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        105,
+                        0,
+                        0
+                    ],
+                    "checkout_success": [
+                        105,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento192-default-u10-d5-prewarm-images",
             "path": "magento192-default-u10-d5-prewarm-images/index.html",
             "legend": "1.9.2.4 Default",
@@ -414,7 +647,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -633,7 +867,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -852,7 +1087,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -1071,7 +1307,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -1278,6 +1515,226 @@
             }
         },
         {
+            "code": "magento192-large-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento192-large-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "1.9.2.4 Default",
+            "color": "rgb(253, 174, 107)",
+            "position": 1,
+            "filter": {
+                "version": "1.9.2.4",
+                "configuration": "1.9.x Default",
+                "data_set": "Large",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    961,
+                    233,
+                    544,
+                    874,
+                    356,
+                    640,
+                    110,
+                    110,
+                    110
+                ],
+                "response": [
+                    92,
+                    35,
+                    204,
+                    183,
+                    140,
+                    180,
+                    210,
+                    302,
+                    78
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        3,
+                        4,
+                        1018,
+                        1210,
+                        2085,
+                        92
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        3,
+                        4,
+                        9,
+                        1002,
+                        1115,
+                        35
+                    ],
+                    "product_page_simple": [
+                        2,
+                        198,
+                        220,
+                        281,
+                        386,
+                        514,
+                        204
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        222,
+                        250,
+                        306,
+                        363,
+                        609,
+                        183
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        69,
+                        117,
+                        192,
+                        224,
+                        287,
+                        340,
+                        140
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        92,
+                        160,
+                        227,
+                        277,
+                        342,
+                        423,
+                        180
+                    ],
+                    "checkout_page": [
+                        133,
+                        196,
+                        217,
+                        342,
+                        478,
+                        524,
+                        210
+                    ],
+                    "checkout_place_order": [
+                        180,
+                        290,
+                        356,
+                        419,
+                        446,
+                        505,
+                        302
+                    ],
+                    "checkout_success": [
+                        49,
+                        68,
+                        80,
+                        156,
+                        168,
+                        191,
+                        78
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        92,
+                        7,
+                        1
+                    ],
+                    "category_page_filtered": [
+                        97,
+                        3,
+                        0
+                    ],
+                    "product_page_simple": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "product_page_configurable": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        887,
+                        64,
+                        10
+                    ],
+                    "category_page_filtered": [
+                        227,
+                        6,
+                        0
+                    ],
+                    "product_page_simple": [
+                        544,
+                        0,
+                        0
+                    ],
+                    "product_page_configurable": [
+                        874,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        356,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        640,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        110,
+                        0,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        110,
+                        0,
+                        0
+                    ],
+                    "checkout_success": [
+                        110,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento192-large-u10-d5-prewarm-images",
             "path": "magento192-large-u10-d5-prewarm-images/index.html",
             "legend": "1.9.2.4 Default",
@@ -1290,7 +1747,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -1509,7 +1967,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -1728,7 +2187,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -1947,7 +2407,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -2166,7 +2627,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -2385,7 +2847,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -2592,6 +3055,226 @@
             }
         },
         {
+            "code": "magento192oro-default-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento192oro-default-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "1.9.2.4 ORO",
+            "color": "rgb(253, 208, 162)",
+            "position": 2,
+            "filter": {
+                "version": "1.9.2.4",
+                "configuration": "1.9.x Oro Ajax",
+                "data_set": "Default",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    1172,
+                    277,
+                    842,
+                    904,
+                    568,
+                    612,
+                    128,
+                    126,
+                    126
+                ],
+                "response": [
+                    70,
+                    44,
+                    156,
+                    143,
+                    163,
+                    195,
+                    222,
+                    278,
+                    79
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        1,
+                        2,
+                        3,
+                        922,
+                        1113,
+                        2836,
+                        70
+                    ],
+                    "category_page_filtered": [
+                        1,
+                        2,
+                        3,
+                        7,
+                        1052,
+                        1166,
+                        44
+                    ],
+                    "product_page_simple": [
+                        1,
+                        181,
+                        205,
+                        250,
+                        314,
+                        442,
+                        156
+                    ],
+                    "product_page_configurable": [
+                        1,
+                        202,
+                        236,
+                        293,
+                        361,
+                        554,
+                        143
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        86,
+                        153,
+                        192,
+                        260,
+                        313,
+                        382,
+                        163
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        105,
+                        182,
+                        225,
+                        306,
+                        337,
+                        522,
+                        195
+                    ],
+                    "checkout_page": [
+                        133,
+                        202,
+                        233,
+                        382,
+                        550,
+                        686,
+                        222
+                    ],
+                    "checkout_place_order": [
+                        173,
+                        266,
+                        309,
+                        390,
+                        445,
+                        563,
+                        278
+                    ],
+                    "checkout_success": [
+                        49,
+                        71,
+                        83,
+                        161,
+                        184,
+                        228,
+                        79
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        94,
+                        5,
+                        0
+                    ],
+                    "category_page_filtered": [
+                        96,
+                        4,
+                        0
+                    ],
+                    "product_page_simple": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "product_page_configurable": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        1104,
+                        63,
+                        5
+                    ],
+                    "category_page_filtered": [
+                        266,
+                        11,
+                        0
+                    ],
+                    "product_page_simple": [
+                        842,
+                        0,
+                        0
+                    ],
+                    "product_page_configurable": [
+                        904,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        568,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        612,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        128,
+                        0,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        126,
+                        0,
+                        0
+                    ],
+                    "checkout_success": [
+                        126,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento192oro-default-u10-d5-prewarm-images",
             "path": "magento192oro-default-u10-d5-prewarm-images/index.html",
             "legend": "1.9.2.4 ORO",
@@ -2604,7 +3287,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -2823,7 +3507,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -3042,7 +3727,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -3261,7 +3947,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -3468,6 +4155,226 @@
             }
         },
         {
+            "code": "magento192oro-large-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento192oro-large-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "1.9.2.4 ORO",
+            "color": "rgb(253, 208, 162)",
+            "position": 2,
+            "filter": {
+                "version": "1.9.2.4",
+                "configuration": "1.9.x Oro Ajax",
+                "data_set": "Large",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    1178,
+                    295,
+                    679,
+                    1074,
+                    501,
+                    697,
+                    118,
+                    116,
+                    116
+                ],
+                "response": [
+                    77,
+                    36,
+                    187,
+                    133,
+                    161,
+                    189,
+                    210,
+                    276,
+                    82
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        1,
+                        3,
+                        3,
+                        1031,
+                        1190,
+                        3206,
+                        77
+                    ],
+                    "category_page_filtered": [
+                        1,
+                        2,
+                        3,
+                        6,
+                        1138,
+                        1219,
+                        36
+                    ],
+                    "product_page_simple": [
+                        1,
+                        187,
+                        209,
+                        260,
+                        305,
+                        383,
+                        187
+                    ],
+                    "product_page_configurable": [
+                        1,
+                        193,
+                        234,
+                        290,
+                        365,
+                        2070,
+                        133
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        80,
+                        150,
+                        183,
+                        258,
+                        308,
+                        359,
+                        161
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        107,
+                        178,
+                        216,
+                        296,
+                        332,
+                        448,
+                        189
+                    ],
+                    "checkout_page": [
+                        133,
+                        188,
+                        215,
+                        356,
+                        498,
+                        949,
+                        210
+                    ],
+                    "checkout_place_order": [
+                        179,
+                        271,
+                        317,
+                        369,
+                        415,
+                        559,
+                        276
+                    ],
+                    "checkout_success": [
+                        49,
+                        71,
+                        88,
+                        169,
+                        193,
+                        243,
+                        82
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        94,
+                        5,
+                        1
+                    ],
+                    "category_page_filtered": [
+                        97,
+                        3,
+                        0
+                    ],
+                    "product_page_simple": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "product_page_configurable": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        99,
+                        1,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        1107,
+                        61,
+                        10
+                    ],
+                    "category_page_filtered": [
+                        286,
+                        8,
+                        1
+                    ],
+                    "product_page_simple": [
+                        679,
+                        0,
+                        0
+                    ],
+                    "product_page_configurable": [
+                        1072,
+                        0,
+                        2
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        501,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        697,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        117,
+                        1,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        116,
+                        0,
+                        0
+                    ],
+                    "checkout_success": [
+                        116,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento192oro-large-u10-d5-prewarm-images",
             "path": "magento192oro-large-u10-d5-prewarm-images/index.html",
             "legend": "1.9.2.4 ORO",
@@ -3480,7 +4387,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -3699,7 +4607,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -3918,7 +4827,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -4137,7 +5047,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -4356,7 +5267,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -4575,7 +5487,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -4794,7 +5707,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -5013,7 +5927,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -5232,7 +6147,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -5439,6 +6355,226 @@
             }
         },
         {
+            "code": "magento202-default-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento202-default-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "2.0.2 Default",
+            "color": "rgb(252, 141, 89)",
+            "position": 4,
+            "filter": {
+                "version": "2.0.2",
+                "configuration": "2.x Default",
+                "data_set": "Default",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    650,
+                    166,
+                    480,
+                    498,
+                    318,
+                    310,
+                    69,
+                    69,
+                    69
+                ],
+                "response": [
+                    349,
+                    154,
+                    780,
+                    836,
+                    327,
+                    453,
+                    591,
+                    531,
+                    396
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        4,
+                        5,
+                        2793,
+                        3283,
+                        4272,
+                        349
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        4,
+                        5,
+                        1921,
+                        2966,
+                        3080,
+                        154
+                    ],
+                    "product_page_simple": [
+                        2,
+                        855,
+                        940,
+                        1086,
+                        1287,
+                        1737,
+                        780
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        1047,
+                        1165,
+                        1340,
+                        1560,
+                        1652,
+                        836
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        173,
+                        312,
+                        364,
+                        471,
+                        563,
+                        744,
+                        327
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        252,
+                        456,
+                        503,
+                        603,
+                        662,
+                        1332,
+                        453
+                    ],
+                    "checkout_page": [
+                        346,
+                        556,
+                        649,
+                        809,
+                        1270,
+                        1402,
+                        591
+                    ],
+                    "checkout_place_order": [
+                        304,
+                        530,
+                        610,
+                        721,
+                        825,
+                        934,
+                        531
+                    ],
+                    "checkout_success": [
+                        266,
+                        399,
+                        436,
+                        528,
+                        558,
+                        603,
+                        396
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        87,
+                        0,
+                        12
+                    ],
+                    "category_page_filtered": [
+                        94,
+                        1,
+                        5
+                    ],
+                    "product_page_simple": [
+                        33,
+                        65,
+                        2
+                    ],
+                    "product_page_configurable": [
+                        26,
+                        55,
+                        19
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        94,
+                        3,
+                        3
+                    ],
+                    "checkout_place_order": [
+                        99,
+                        1,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        567,
+                        2,
+                        81
+                    ],
+                    "category_page_filtered": [
+                        156,
+                        1,
+                        9
+                    ],
+                    "product_page_simple": [
+                        157,
+                        314,
+                        9
+                    ],
+                    "product_page_configurable": [
+                        127,
+                        276,
+                        95
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        318,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        309,
+                        0,
+                        1
+                    ],
+                    "checkout_page": [
+                        65,
+                        2,
+                        2
+                    ],
+                    "checkout_place_order": [
+                        68,
+                        1,
+                        0
+                    ],
+                    "checkout_success": [
+                        69,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento202-default-u10-d5-opt-prewarm-images",
             "path": "magento202-default-u10-d5-opt-prewarm-images/index.html",
             "legend": "2.0.2 No Reviews",
@@ -5451,7 +6587,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -5670,7 +6807,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -5889,7 +7027,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -6108,7 +7247,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -6327,7 +7467,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -6546,7 +7687,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -6765,7 +7907,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -6984,7 +8127,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -7203,7 +8347,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -7422,7 +8567,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -7641,7 +8787,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -7860,7 +9007,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -8067,6 +9215,226 @@
             }
         },
         {
+            "code": "magento202-large-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento202-large-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "2.0.2 Default",
+            "color": "rgb(252, 141, 89)",
+            "position": 4,
+            "filter": {
+                "version": "2.0.2",
+                "configuration": "2.x Default",
+                "data_set": "Large",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    631,
+                    133,
+                    371,
+                    552,
+                    256,
+                    407,
+                    68,
+                    68,
+                    68
+                ],
+                "response": [
+                    315,
+                    152,
+                    895,
+                    827,
+                    342,
+                    464,
+                    647,
+                    580,
+                    420
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        4,
+                        5,
+                        2513,
+                        3058,
+                        3304,
+                        315
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        4,
+                        5,
+                        1932,
+                        2546,
+                        2660,
+                        152
+                    ],
+                    "product_page_simple": [
+                        2,
+                        887,
+                        975,
+                        1144,
+                        1561,
+                        1853,
+                        895
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        1049,
+                        1182,
+                        1432,
+                        1916,
+                        2192,
+                        827
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        173,
+                        327,
+                        389,
+                        490,
+                        575,
+                        719,
+                        342
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        271,
+                        456,
+                        520,
+                        621,
+                        744,
+                        935,
+                        464
+                    ],
+                    "checkout_page": [
+                        392,
+                        619,
+                        711,
+                        938,
+                        1222,
+                        1330,
+                        647
+                    ],
+                    "checkout_place_order": [
+                        303,
+                        556,
+                        648,
+                        871,
+                        1055,
+                        1108,
+                        580
+                    ],
+                    "checkout_success": [
+                        251,
+                        401,
+                        479,
+                        564,
+                        683,
+                        708,
+                        420
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        87,
+                        0,
+                        13
+                    ],
+                    "category_page_filtered": [
+                        93,
+                        0,
+                        7
+                    ],
+                    "product_page_simple": [
+                        22,
+                        74,
+                        4
+                    ],
+                    "product_page_configurable": [
+                        30,
+                        48,
+                        22
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        99,
+                        1,
+                        0
+                    ],
+                    "checkout_page": [
+                        87,
+                        12,
+                        1
+                    ],
+                    "checkout_place_order": [
+                        91,
+                        9,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        549,
+                        2,
+                        80
+                    ],
+                    "category_page_filtered": [
+                        124,
+                        0,
+                        9
+                    ],
+                    "product_page_simple": [
+                        83,
+                        275,
+                        13
+                    ],
+                    "product_page_configurable": [
+                        163,
+                        265,
+                        124
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        256,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        404,
+                        3,
+                        0
+                    ],
+                    "checkout_page": [
+                        59,
+                        8,
+                        1
+                    ],
+                    "checkout_place_order": [
+                        62,
+                        6,
+                        0
+                    ],
+                    "checkout_success": [
+                        68,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento202-large-u10-d5-opt-prewarm-images",
             "path": "magento202-large-u10-d5-opt-prewarm-images/index.html",
             "legend": "2.0.2 No Reviews",
@@ -8079,7 +9447,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -8298,7 +9667,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -8517,7 +9887,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -8736,7 +10107,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -8955,7 +10327,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -9174,7 +10547,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -9393,7 +10767,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -9612,7 +10987,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -9831,7 +11207,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -10050,7 +11427,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -10269,7 +11647,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -10488,7 +11867,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -10707,7 +12087,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -10926,7 +12307,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -11145,7 +12527,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -11364,7 +12747,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -11583,7 +12967,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -11802,7 +13187,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -12021,7 +13407,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -12240,7 +13627,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -12459,7 +13847,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -12678,7 +14067,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -12885,6 +14275,226 @@
             }
         },
         {
+            "code": "magento204-default-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento204-default-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "2.0.4 Default",
+            "color": "rgb(239, 101, 72)",
+            "position": 5,
+            "filter": {
+                "version": "2.0.4",
+                "configuration": "2.x Default",
+                "data_set": "Default",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    642,
+                    160,
+                    450,
+                    509,
+                    325,
+                    313,
+                    59,
+                    59,
+                    59
+                ],
+                "response": [
+                    355,
+                    123,
+                    809,
+                    874,
+                    346,
+                    462,
+                    631,
+                    569,
+                    412
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        4,
+                        5,
+                        2827,
+                        3263,
+                        4764,
+                        355
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        3,
+                        4,
+                        11,
+                        2906,
+                        3147,
+                        123
+                    ],
+                    "product_page_simple": [
+                        2,
+                        874,
+                        980,
+                        1127,
+                        1242,
+                        2447,
+                        809
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        1056,
+                        1178,
+                        1353,
+                        1546,
+                        2789,
+                        874
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        177,
+                        326,
+                        390,
+                        496,
+                        600,
+                        2937,
+                        346
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        261,
+                        459,
+                        527,
+                        622,
+                        702,
+                        751,
+                        462
+                    ],
+                    "checkout_page": [
+                        340,
+                        632,
+                        715,
+                        825,
+                        970,
+                        1147,
+                        631
+                    ],
+                    "checkout_place_order": [
+                        285,
+                        541,
+                        655,
+                        784,
+                        1068,
+                        1294,
+                        569
+                    ],
+                    "checkout_success": [
+                        272,
+                        408,
+                        474,
+                        534,
+                        644,
+                        740,
+                        412
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        87,
+                        0,
+                        13
+                    ],
+                    "category_page_filtered": [
+                        96,
+                        0,
+                        4
+                    ],
+                    "product_page_simple": [
+                        27,
+                        70,
+                        3
+                    ],
+                    "product_page_configurable": [
+                        23,
+                        57,
+                        19
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        90,
+                        10,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        95,
+                        3,
+                        2
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        559,
+                        1,
+                        82
+                    ],
+                    "category_page_filtered": [
+                        153,
+                        0,
+                        7
+                    ],
+                    "product_page_simple": [
+                        122,
+                        316,
+                        12
+                    ],
+                    "product_page_configurable": [
+                        118,
+                        292,
+                        99
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        324,
+                        0,
+                        1
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        313,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        53,
+                        6,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        56,
+                        2,
+                        1
+                    ],
+                    "checkout_success": [
+                        59,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento204-default-u10-d5-opt-prewarm-images",
             "path": "magento204-default-u10-d5-opt-prewarm-images/index.html",
             "legend": "2.0.4 No Reviews",
@@ -12897,7 +14507,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -13116,7 +14727,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -13335,7 +14947,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -13554,7 +15167,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -13773,7 +15387,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -13992,7 +15607,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -14211,7 +15827,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -14430,7 +16047,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -14649,7 +16267,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -14868,7 +16487,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -15087,7 +16707,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -15306,7 +16927,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -15513,6 +17135,226 @@
             }
         },
         {
+            "code": "magento204-large-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento204-large-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "2.0.4 Default",
+            "color": "rgb(239, 101, 72)",
+            "position": 5,
+            "filter": {
+                "version": "2.0.4",
+                "configuration": "2.x Default",
+                "data_set": "Large",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    660,
+                    154,
+                    365,
+                    612,
+                    250,
+                    428,
+                    69,
+                    68,
+                    68
+                ],
+                "response": [
+                    273,
+                    136,
+                    852,
+                    742,
+                    324,
+                    447,
+                    643,
+                    567,
+                    424
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        4,
+                        5,
+                        2324,
+                        2626,
+                        3376,
+                        273
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        4,
+                        4,
+                        1834,
+                        2337,
+                        2550,
+                        136
+                    ],
+                    "product_page_simple": [
+                        2,
+                        865,
+                        932,
+                        1069,
+                        1184,
+                        1339,
+                        852
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        1008,
+                        1132,
+                        1288,
+                        1489,
+                        1849,
+                        742
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        175,
+                        311,
+                        364,
+                        470,
+                        535,
+                        673,
+                        324
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        267,
+                        435,
+                        497,
+                        608,
+                        735,
+                        819,
+                        447
+                    ],
+                    "checkout_page": [
+                        402,
+                        634,
+                        717,
+                        822,
+                        978,
+                        1002,
+                        643
+                    ],
+                    "checkout_place_order": [
+                        346,
+                        551,
+                        623,
+                        737,
+                        922,
+                        1035,
+                        567
+                    ],
+                    "checkout_success": [
+                        286,
+                        406,
+                        476,
+                        585,
+                        682,
+                        728,
+                        424
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        88,
+                        0,
+                        12
+                    ],
+                    "category_page_filtered": [
+                        94,
+                        0,
+                        6
+                    ],
+                    "product_page_simple": [
+                        30,
+                        70,
+                        1
+                    ],
+                    "product_page_configurable": [
+                        33,
+                        55,
+                        12
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        94,
+                        6,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        96,
+                        4,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        580,
+                        2,
+                        78
+                    ],
+                    "category_page_filtered": [
+                        144,
+                        0,
+                        10
+                    ],
+                    "product_page_simple": [
+                        108,
+                        254,
+                        3
+                    ],
+                    "product_page_configurable": [
+                        200,
+                        337,
+                        75
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        250,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        427,
+                        1,
+                        0
+                    ],
+                    "checkout_page": [
+                        65,
+                        4,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        65,
+                        3,
+                        0
+                    ],
+                    "checkout_success": [
+                        68,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento204-large-u10-d5-opt-prewarm-images",
             "path": "magento204-large-u10-d5-opt-prewarm-images/index.html",
             "legend": "2.0.4 No Reviews",
@@ -15525,7 +17367,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -15744,7 +17587,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -15963,7 +17807,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -16182,7 +18027,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -16401,7 +18247,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -16620,7 +18467,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -16839,7 +18687,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -17058,7 +18907,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -17277,7 +19127,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -17496,7 +19347,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -17715,7 +19567,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -17934,7 +19787,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -18153,7 +20007,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -18372,7 +20227,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -18591,7 +20447,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -18810,7 +20667,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -19029,7 +20887,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -19248,7 +21107,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -19467,7 +21327,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -19686,7 +21547,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -19905,7 +21767,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -20124,7 +21987,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -20331,6 +22195,226 @@
             }
         },
         {
+            "code": "magento207-default-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento207-default-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "2.0.7 Default",
+            "color": "rgb(215, 48, 31)",
+            "position": 6,
+            "filter": {
+                "version": "2.0.7",
+                "configuration": "2.x Default",
+                "data_set": "Default",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    673,
+                    177,
+                    518,
+                    491,
+                    357,
+                    302,
+                    44,
+                    44,
+                    44
+                ],
+                "response": [
+                    332,
+                    108,
+                    770,
+                    828,
+                    342,
+                    465,
+                    602,
+                    571,
+                    404
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        4,
+                        5,
+                        2773,
+                        3121,
+                        3737,
+                        332
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        4,
+                        4,
+                        10,
+                        2795,
+                        3019,
+                        108
+                    ],
+                    "product_page_simple": [
+                        2,
+                        867,
+                        955,
+                        1092,
+                        1205,
+                        1685,
+                        770
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        1047,
+                        1176,
+                        1353,
+                        1520,
+                        1829,
+                        828
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        174,
+                        337,
+                        390,
+                        474,
+                        571,
+                        917,
+                        342
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        296,
+                        444,
+                        525,
+                        622,
+                        720,
+                        991,
+                        465
+                    ],
+                    "checkout_page": [
+                        401,
+                        602,
+                        680,
+                        780,
+                        866,
+                        871,
+                        602
+                    ],
+                    "checkout_place_order": [
+                        325,
+                        531,
+                        653,
+                        780,
+                        945,
+                        1066,
+                        571
+                    ],
+                    "checkout_success": [
+                        262,
+                        384,
+                        432,
+                        606,
+                        625,
+                        634,
+                        404
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        88,
+                        0,
+                        12
+                    ],
+                    "category_page_filtered": [
+                        96,
+                        0,
+                        4
+                    ],
+                    "product_page_simple": [
+                        31,
+                        67,
+                        1
+                    ],
+                    "product_page_configurable": [
+                        27,
+                        54,
+                        19
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        99,
+                        1,
+                        0
+                    ],
+                    "checkout_page": [
+                        95,
+                        5,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        98,
+                        2,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        590,
+                        2,
+                        81
+                    ],
+                    "category_page_filtered": [
+                        170,
+                        0,
+                        7
+                    ],
+                    "product_page_simple": [
+                        163,
+                        348,
+                        7
+                    ],
+                    "product_page_configurable": [
+                        133,
+                        267,
+                        91
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        356,
+                        1,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        300,
+                        2,
+                        0
+                    ],
+                    "checkout_page": [
+                        42,
+                        2,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        43,
+                        1,
+                        0
+                    ],
+                    "checkout_success": [
+                        44,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento207-default-u10-d5-opt-prewarm-images",
             "path": "magento207-default-u10-d5-opt-prewarm-images/index.html",
             "legend": "2.0.7 No Reviews",
@@ -20343,7 +22427,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -20562,7 +22647,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -20781,7 +22867,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -21000,7 +23087,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -21219,7 +23307,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -21438,7 +23527,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -21657,7 +23747,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -21876,7 +23967,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -22095,7 +24187,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -22314,7 +24407,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -22533,7 +24627,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -22752,7 +24847,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -22959,6 +25055,226 @@
             }
         },
         {
+            "code": "magento207-large-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento207-large-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "2.0.7 Default",
+            "color": "rgb(215, 48, 31)",
+            "position": 6,
+            "filter": {
+                "version": "2.0.7",
+                "configuration": "2.x Default",
+                "data_set": "Large",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    642,
+                    163,
+                    364,
+                    582,
+                    246,
+                    418,
+                    54,
+                    52,
+                    52
+                ],
+                "response": [
+                    321,
+                    88,
+                    887,
+                    832,
+                    335,
+                    458,
+                    654,
+                    572,
+                    427
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        4,
+                        5,
+                        2472,
+                        2969,
+                        3556,
+                        321
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        4,
+                        4,
+                        10,
+                        2473,
+                        2621,
+                        88
+                    ],
+                    "product_page_simple": [
+                        2,
+                        885,
+                        971,
+                        1151,
+                        1240,
+                        2041,
+                        887
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        1051,
+                        1183,
+                        1395,
+                        1666,
+                        1917,
+                        832
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        194,
+                        327,
+                        374,
+                        468,
+                        538,
+                        662,
+                        335
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        266,
+                        449,
+                        513,
+                        611,
+                        764,
+                        942,
+                        458
+                    ],
+                    "checkout_page": [
+                        384,
+                        614,
+                        725,
+                        939,
+                        1294,
+                        1563,
+                        654
+                    ],
+                    "checkout_place_order": [
+                        311,
+                        545,
+                        642,
+                        728,
+                        1169,
+                        1301,
+                        572
+                    ],
+                    "checkout_success": [
+                        273,
+                        401,
+                        460,
+                        565,
+                        717,
+                        827,
+                        427
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        87,
+                        0,
+                        13
+                    ],
+                    "category_page_filtered": [
+                        96,
+                        0,
+                        4
+                    ],
+                    "product_page_simple": [
+                        24,
+                        74,
+                        1
+                    ],
+                    "product_page_configurable": [
+                        28,
+                        49,
+                        23
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        99,
+                        1,
+                        0
+                    ],
+                    "checkout_page": [
+                        85,
+                        13,
+                        2
+                    ],
+                    "checkout_place_order": [
+                        96,
+                        2,
+                        2
+                    ],
+                    "checkout_success": [
+                        98,
+                        2,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        557,
+                        1,
+                        84
+                    ],
+                    "category_page_filtered": [
+                        157,
+                        0,
+                        6
+                    ],
+                    "product_page_simple": [
+                        89,
+                        270,
+                        5
+                    ],
+                    "product_page_configurable": [
+                        162,
+                        287,
+                        133
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        246,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        415,
+                        3,
+                        0
+                    ],
+                    "checkout_page": [
+                        46,
+                        7,
+                        1
+                    ],
+                    "checkout_place_order": [
+                        50,
+                        1,
+                        1
+                    ],
+                    "checkout_success": [
+                        51,
+                        1,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento207-large-u10-d5-opt-prewarm-images",
             "path": "magento207-large-u10-d5-opt-prewarm-images/index.html",
             "legend": "2.0.7 No Reviews",
@@ -22971,7 +25287,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -23190,7 +25507,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -23409,7 +25727,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -23628,7 +25947,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -23847,7 +26167,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -24066,7 +26387,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -24285,7 +26607,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -24504,7 +26827,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -24723,7 +27047,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -24942,7 +27267,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -25161,7 +27487,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -25380,7 +27707,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -25599,7 +27927,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -25818,7 +28147,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -26037,7 +28367,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -26256,7 +28587,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -26475,7 +28807,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -26694,7 +29027,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -26913,7 +29247,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -27132,7 +29467,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -27351,7 +29687,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -27570,7 +29907,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -27777,6 +30115,226 @@
             }
         },
         {
+            "code": "magento210-default-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento210-default-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "2.1.0 Default",
+            "color": "rgb(153, 0, 0)",
+            "position": 7,
+            "filter": {
+                "version": "2.1.0",
+                "configuration": "2.x Default",
+                "data_set": "Default",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    736,
+                    193,
+                    594,
+                    505,
+                    360,
+                    370,
+                    75,
+                    75,
+                    75
+                ],
+                "response": [
+                    274,
+                    105,
+                    703,
+                    755,
+                    297,
+                    397,
+                    508,
+                    453,
+                    316
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        3,
+                        5,
+                        2460,
+                        2868,
+                        3442,
+                        274
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        3,
+                        4,
+                        308,
+                        2278,
+                        2609,
+                        105
+                    ],
+                    "product_page_simple": [
+                        1,
+                        798,
+                        890,
+                        1058,
+                        1220,
+                        1502,
+                        703
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        949,
+                        1051,
+                        1258,
+                        1397,
+                        1512,
+                        755
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        156,
+                        289,
+                        349,
+                        429,
+                        517,
+                        622,
+                        297
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        217,
+                        387,
+                        440,
+                        554,
+                        679,
+                        891,
+                        397
+                    ],
+                    "checkout_page": [
+                        377,
+                        488,
+                        562,
+                        684,
+                        765,
+                        774,
+                        508
+                    ],
+                    "checkout_place_order": [
+                        270,
+                        427,
+                        506,
+                        644,
+                        807,
+                        890,
+                        453
+                    ],
+                    "checkout_success": [
+                        189,
+                        304,
+                        343,
+                        446,
+                        503,
+                        552,
+                        316
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        89,
+                        0,
+                        11
+                    ],
+                    "category_page_filtered": [
+                        95,
+                        0,
+                        5
+                    ],
+                    "product_page_simple": [
+                        51,
+                        48,
+                        1
+                    ],
+                    "product_page_configurable": [
+                        29,
+                        63,
+                        8
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        99,
+                        1,
+                        0
+                    ],
+                    "checkout_page": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        99,
+                        1,
+                        0
+                    ],
+                    "checkout_success": [
+                        100,
+                        0,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        653,
+                        3,
+                        80
+                    ],
+                    "category_page_filtered": [
+                        184,
+                        0,
+                        9
+                    ],
+                    "product_page_simple": [
+                        300,
+                        286,
+                        8
+                    ],
+                    "product_page_configurable": [
+                        146,
+                        317,
+                        42
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        360,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        368,
+                        2,
+                        0
+                    ],
+                    "checkout_page": [
+                        75,
+                        0,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        74,
+                        1,
+                        0
+                    ],
+                    "checkout_success": [
+                        75,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento210-default-u10-d5-opt-prewarm-images",
             "path": "magento210-default-u10-d5-opt-prewarm-images/index.html",
             "legend": "2.1.0 No Reviews",
@@ -27789,7 +30347,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -28008,7 +30567,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -28227,7 +30787,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -28446,7 +31007,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -28665,7 +31227,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -28884,7 +31447,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -29103,7 +31667,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -29322,7 +31887,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -29541,7 +32107,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -29760,7 +32327,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -29979,7 +32547,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -30198,7 +32767,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -30405,6 +32975,226 @@
             }
         },
         {
+            "code": "magento210-large-u10-d5-innodb256mb-prewarm-images",
+            "path": "magento210-large-u10-d5-innodb256mb-prewarm-images/index.html",
+            "legend": "2.1.0 Default",
+            "color": "rgb(153, 0, 0)",
+            "position": 7,
+            "filter": {
+                "version": "2.1.0",
+                "configuration": "2.x Default",
+                "data_set": "Large",
+                "users": 10,
+                "duration": 5,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M"
+            },
+            "aggregateReport": {
+                "requests": [
+                    735,
+                    189,
+                    422,
+                    688,
+                    248,
+                    464,
+                    71,
+                    69,
+                    69
+                ],
+                "response": [
+                    255,
+                    77,
+                    818,
+                    696,
+                    308,
+                    397,
+                    499,
+                    466,
+                    324
+                ]
+            },
+            "pageReport": {
+                "response": {
+                    "category_page_default": [
+                        2,
+                        4,
+                        5,
+                        2256,
+                        2633,
+                        3381,
+                        255
+                    ],
+                    "category_page_filtered": [
+                        2,
+                        4,
+                        5,
+                        12,
+                        2171,
+                        2483,
+                        77
+                    ],
+                    "product_page_simple": [
+                        2,
+                        816,
+                        894,
+                        1083,
+                        1368,
+                        1563,
+                        818
+                    ],
+                    "product_page_configurable": [
+                        2,
+                        925,
+                        1078,
+                        1273,
+                        1492,
+                        1819,
+                        696
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        151,
+                        299,
+                        357,
+                        447,
+                        592,
+                        819,
+                        308
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        221,
+                        386,
+                        446,
+                        538,
+                        640,
+                        807,
+                        397
+                    ],
+                    "checkout_page": [
+                        322,
+                        475,
+                        564,
+                        686,
+                        817,
+                        827,
+                        499
+                    ],
+                    "checkout_place_order": [
+                        270,
+                        447,
+                        524,
+                        679,
+                        779,
+                        807,
+                        466
+                    ],
+                    "checkout_success": [
+                        193,
+                        299,
+                        372,
+                        447,
+                        680,
+                        1005,
+                        324
+                    ]
+                },
+                "indicatorPercent": {
+                    "category_page_default": [
+                        89,
+                        0,
+                        11
+                    ],
+                    "category_page_filtered": [
+                        96,
+                        0,
+                        4
+                    ],
+                    "product_page_simple": [
+                        43,
+                        54,
+                        3
+                    ],
+                    "product_page_configurable": [
+                        37,
+                        53,
+                        10
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        100,
+                        0,
+                        0
+                    ],
+                    "checkout_page": [
+                        96,
+                        4,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        99,
+                        1,
+                        0
+                    ],
+                    "checkout_success": [
+                        99,
+                        1,
+                        0
+                    ]
+                },
+                "indicatorCount": {
+                    "category_page_default": [
+                        654,
+                        0,
+                        81
+                    ],
+                    "category_page_filtered": [
+                        182,
+                        0,
+                        7
+                    ],
+                    "product_page_simple": [
+                        180,
+                        229,
+                        13
+                    ],
+                    "product_page_configurable": [
+                        254,
+                        362,
+                        72
+                    ],
+                    "shopping_cart_add_simple_product": [
+                        247,
+                        1,
+                        0
+                    ],
+                    "shopping_cart_add_configurable_product": [
+                        463,
+                        1,
+                        0
+                    ],
+                    "checkout_page": [
+                        68,
+                        3,
+                        0
+                    ],
+                    "checkout_place_order": [
+                        68,
+                        1,
+                        0
+                    ],
+                    "checkout_success": [
+                        68,
+                        1,
+                        0
+                    ]
+                }
+            }
+        },
+        {
             "code": "magento210-large-u10-d5-opt-prewarm-images",
             "path": "magento210-large-u10-d5-opt-prewarm-images/index.html",
             "legend": "2.1.0 No Reviews",
@@ -30417,7 +33207,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -30636,7 +33427,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -30855,7 +33647,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -31074,7 +33867,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -31293,7 +34087,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -31512,7 +34307,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -31731,7 +34527,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -31950,7 +34747,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -32169,7 +34967,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -32388,7 +35187,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -32607,7 +35407,8 @@
                 "users": 10,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -32826,7 +35627,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -33045,7 +35847,8 @@
                 "users": 10,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -33264,7 +36067,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -33483,7 +36287,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -33702,7 +36507,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -33921,7 +36727,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -34140,7 +36947,8 @@
                 "users": 20,
                 "duration": 5,
                 "image_cache": "Warm",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -34359,7 +37167,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Cold",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -34578,7 +37387,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Cold",
-                "php": "5.6"
+                "php": "5.6",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -34797,7 +37607,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Cold",
-                "php": "7.0"
+                "php": "7.0",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
@@ -35016,7 +37827,8 @@
                 "users": 20,
                 "duration": 10,
                 "image_cache": "Cold",
-                "php": "5.6"
+                "php": "5.6",
+                "innodb": "8G"
             },
             "aggregateReport": {
                 "requests": [
