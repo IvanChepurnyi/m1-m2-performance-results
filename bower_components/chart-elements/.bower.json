@@ -34,6 +34,6 @@
     "commit": "2c0579be24839e9920320e97854aa3b37224425f"
   },
   "_source": "https://github.com/robdodson/chart-elements.git",
-  "_target": "^3.1.1",
+  "_target": "*",
   "_originalSource": "chart-elements"
 }
