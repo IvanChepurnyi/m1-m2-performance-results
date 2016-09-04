@@ -1,0 +1,177 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-request.html">
+
+<script>
+    'use strict';
+
+    Polymer({
+
+        is: 'report-data',
+
+        /**
+         * Fired when a request is sent.
+         *
+         * @event request
+         * @event iron-ajax-request
+         */
+
+        /**
+         * Fired when a response is received.
+         *
+         * @event response
+         * @event iron-ajax-response
+         */
+
+        /**
+         * Fired when an error is received.
+         *
+         * @event error
+         * @event iron-ajax-error
+         */
+
+        properties: {
+            /**
+             * The URL target of the request.
+             */
+            reports: {
+                type: Object,
+                value: function() {
+                    return {};
+                }
+            },
+
+            /**
+             * An Array of all in-flight requests originating from this data component
+             * element.
+             */
+            activeRequests: {
+                type: Array,
+                notify: true,
+                readOnly: true,
+                value: function() {
+                    return [];
+                }
+            },
+
+            loadedReportData: {
+                type: Object,
+                notify: true,
+                value: function() {
+                    return {};
+                }
+            },
+
+
+            /**
+             * Length of time in milliseconds to debounce multiple automatically generated requests.
+             */
+            debounceDuration: {
+                type: Number,
+                value: 0,
+                notify: true
+            },
+
+            _boundHandleResponse: {
+                type: Function,
+                value: function() {
+                    return this._handleResponse.bind(this);
+                }
+            }
+        },
+
+        observers: [
+            '_requestOptionsChanged(reports.*, reports)'
+        ],
+
+        /**
+         * Request options suitable for generating an `iron-request` instance based
+         * on the current state of the `iron-ajax` instance's properties.
+         *
+         * @return {{
+     *   url: string,
+     *   method: (string|undefined),
+     *   async: (boolean|undefined),
+     *   body: (ArrayBuffer|ArrayBufferView|Blob|Document|FormData|null|string|undefined|Object),
+     *   headers: (Object|undefined),
+     *   handleAs: (string|undefined),
+     *   jsonPrefix: (string|undefined),
+     *   withCredentials: (boolean|undefined)}}
+         */
+        toRequestOptions: function() {
+            return {
+                url: this.requestUrl || '',
+                method: this.method,
+                headers: this.requestHeaders,
+                body: this.body,
+                async: !this.sync,
+                handleAs: this.handleAs,
+                jsonPrefix: this.jsonPrefix,
+                withCredentials: this.withCredentials,
+                timeout: this.timeout
+            };
+        },
+
+        /**
+         * Performs an AJAX request to the specified URL.
+         */
+        generateRequests: function() {
+            for (var reportCode in this.reports) {
+                var request = /** @type {!IronRequestElement} */ (document.createElement('iron-request'));
+
+                this.push('activeRequests', request);
+
+                request.completes.then(
+                    this._handleResponse.bind(this, request, reportCode)
+                ).catch(
+                    this._handleError.bind(this, request)
+                ).then(
+                    this._discardRequests.bind(this, request)
+                );
+
+                request.send({
+                    url: this.reports[reportCode],
+                    method: 'GET',
+                    handleAs: 'json'
+                });
+            }
+
+            this.set('loading', true);
+            this.set('loadedReportData', {});
+        },
+
+        /**
+         * @param {!IronRequestElement} request
+         */
+        _handleResponse: function (request, reportCode) {
+            this.set('loadedReportData.' + reportCode, request.response);
+        },
+
+        /**
+         * @param {!IronRequestElement} request
+         */
+        _handleError: function (request) {
+
+        },
+
+        _discardRequests: function(request) {
+            var requestIndex = this.activeRequests.indexOf(request);
+
+            if (requestIndex > -1) {
+                this.splice('activeRequests', requestIndex, 1);
+            }
+
+            if (!this.activeRequests.length) {
+                this.set('loading', false);
+                this._updateReportData();
+            }
+        },
+
+        _requestOptionsChanged: function() {
+            this.generateRequests();
+        },
+        _updateReportData: function() {
+            this.loadedReportData.length = 1;
+            this.fire('report-ready', this.loadedReportData);
+        }
+    });
+</script>

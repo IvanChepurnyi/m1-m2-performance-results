@@ -1,0 +1,10 @@
+{
+  "simulation": "m1oro.defaultFrontTest",
+  "simulationId": "defaultfronttest",
+  "start": 1471591494986,
+  "description": "",
+  "scenarios": ["Magento CE 1.9.2.4 Load Test (20 users over 30 sec during 10 min)"],
+  "assertions": [
+
+  ]
+}
