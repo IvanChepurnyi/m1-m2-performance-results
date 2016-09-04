@@ -1,0 +1,10 @@
+{
+  "simulation": "m1.defaultFrontTest",
+  "simulationId": "defaultfronttest",
+  "start": 1472450928753,
+  "description": "",
+  "scenarios": ["Magento CE 1.9.2.4 Load Test (20 users over 30 sec during 5 min)"],
+  "assertions": [
+
+  ]
+}
