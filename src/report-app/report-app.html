@@ -16,19 +16,17 @@
 <link rel="import" href="../../bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
 <link rel="import" href="../../bower_components/app-layout/app-drawer/app-drawer.html">
 <link rel="import" href="../../bower_components/app-layout/app-toolbar/app-toolbar.html">
-<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 <link rel="import" href="../../bower_components/chart-elements/chart-bar.html">
+<link rel="import" href="../../bower_components/chart-elements/chart-line.html">
 <link rel="import" href="../../bower_components/iron-resizable-behavior/iron-resizable-behavior.html">
+<script type="text/javascript" src="../../bower_components/chart.js/dist/Chart.min.js"></script>
+<link rel="import" href="report-data.html">
 
 
 <dom-module id="report-app">
-
-
-  <style include="iron-flex iron-flex-alignment"></style>
-
-
   <template>
-    <style>
+    <style include="iron-flex iron-flex-alignment">
       app-toolbar {
         background-color: #4285f4;
         color: #fff;
@@ -40,9 +38,7 @@
         };
 
         --app-drawer-width: 400px;
-
       }
-
 
       .wide {
         width: 100%;
@@ -75,11 +71,18 @@
       .wide .small {
         font-size: 12px;
       }
+
+      .small-chart {
+        width: 50%;
+      }
+
     </style>
     <iron-ajax auto
                url="[[url]]"
                handle-as="json"
                on-response="fillData"></iron-ajax>
+
+    <report-data reports="[[reportUrls]]" on-report-ready="buildReports"></report-data>
 
     <app-toolbar>
       <paper-icon-button icon="menu" onclick="appDrawer.toggle()"></paper-icon-button>
@@ -87,8 +90,57 @@
     </app-toolbar>
 
     <paper-card class="wide" heading="Detailed Reports">
-      <template is="dom-repeat" items="{{filteredRecords}}" as="report">
-        <a href="[[prefix]][[report.path]]"><paper-item><iron-icon icon="icons:dot" style="background-color:[[report.color]]"></iron-icon> [[report.fullLabel]]</paper-item></a>
+      <template is="dom-repeat" items="[[filteredRecords]]" as="report">
+        <paper-item class="layout vertical">
+          <div><iron-icon icon="icons:dot" style="background-color:[[report.color]]; width: 10px; height: 10px;"></iron-icon> <a href="[[prefix]][[report.path]]">[[report.fullLabel]]</a></div>
+          <div><small>[[report.description]]</small></div>
+        </paper-item>
+      </template>
+    </paper-card>
+
+
+    <paper-card class="wide">
+      <h4>One to One Report</h4>
+      <div class="horizontal layout">
+        <paper-dropdown-menu label="Left Report" class="flex">
+          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.leftReport}}" on-iron-select="_compareReport">
+            <template is="dom-repeat" items="[[filteredRecords]]" as="report">
+              <paper-item value="[[report.code]]">[[report.fullLabel]]</paper-item>
+            </template>
+          </paper-listbox>
+        </paper-dropdown-menu>
+        <paper-dropdown-menu label="Right Report" class="flex">
+          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.rightReport}}" on-iron-select="_compareReport">
+            <template is="dom-repeat" items="[[filteredRecords]]" as="report">
+              <paper-item value="[[report.code]]">[[report.fullLabel]]</paper-item>
+            </template>
+          </paper-listbox>
+        </paper-dropdown-menu>
+
+        <paper-dropdown-menu label="Timeline Report" class="flex">
+          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.overtimeReport}}" on-iron-select="_compareReport">
+            <template is="dom-repeat" items="[[reportData.overtimeReport]]" as="report">
+              <paper-item value="[[report.dataCode]]">[[report.label]]</paper-item>
+            </template>
+          </paper-listbox>
+        </paper-dropdown-menu>
+
+        <paper-dropdown-menu label="System Report" class="flex">
+          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.systemReport}}" on-iron-select="_compareReport">
+            <template is="dom-repeat" items="[[reportData.systemReport]]" as="report">
+              <paper-item value="[[report.dataCode]]">[[report.label]]</paper-item>
+            </template>
+          </paper-listbox>
+        </paper-dropdown-menu>
+      </div>
+
+
+      <template is="dom-repeat" items="[[compareReports]]" as="report">
+        <h4>[[report.label]]</h4>
+        <div class="layout horizontal wrap">
+          <chart-line data="{{report.leftReport}}" options="{{report.options}}" class="small-chart"></chart-line>
+          <chart-line data="{{report.rightReport}}" options="{{report.options}}" class="small-chart"></chart-line>
+        </div>
       </template>
     </paper-card>
 
@@ -123,11 +175,12 @@
     </template>
 
     <app-drawer slidable id="appDrawer" >
+      <div style="height: 100%; overflow: auto;">
         <template is="dom-repeat" items="{{filters}}" as="filter">
           <template is="dom-if" if="{{filter.multiple}}">
             <paper-card class="wide">
               <div class="title">[[filter.label]]</div>
-              <div class="layout horizontal">
+              <div class="layout horizontal wrap">
                 <template is="dom-repeat" items="{{filter.selections}}" as="option">
                   <paper-checkbox value="[[option]]" checked="{{option.checked}}" on-change="_filterChange">[[option.option]]</paper-checkbox>
                 </template>
@@ -149,6 +202,7 @@
           </paper-card>
         </template>
       </template>
+      </div>
     </app-drawer>
 
 
@@ -168,6 +222,13 @@
         heading: String,
         url: String,
         prefix: String,
+        reportUrls: {
+          type: Object,
+          notify: true,
+          value: function() {
+            return {};
+          }
+        },
         globalReports: {
           type: Array,
           notify: true,
@@ -197,11 +258,35 @@
           notify: true,
           value: {}
         },
+        loadedReportData: {
+          type: Object,
+          notify: true,
+          value: function () {
+            return {};
+          }
+        },
+
         filteredRecords: {
           type: Array,
           notify: true,
           value: []
         },
+
+        compare: {
+          type: Object,
+          notify: true,
+          value: function () {
+            return {}
+          }
+        },
+
+        compareReports: {
+          type: Array,
+          notify: true,
+          value: []
+        },
+
+
         filters: {
           type: Array,
           notify: true,
@@ -215,6 +300,9 @@
           value: 'desktop'
         }
       },
+      observers: [
+        '_updateReportView(viewStyle)'
+      ],
       attached: function() {
         this.async(this.notifyResize, 1);
       },
@@ -224,9 +312,14 @@
         }
         return this.parentNode;
       },
+      _stringify: function (value) {
+        return JSON.stringify(value);
+      },
       _onIronResize: function() {
         this.screenWidth = Math.floor(this.parent.offsetWidth);
         this._validateScreen();
+      },
+      _updateReportView: function () {
         this._updateGlobalReports();
         this._updatePage();
       },
@@ -248,6 +341,7 @@
         this._filterChange();
         this._updatePages();
       },
+
 
       updateFilters: function (dataResults) {
         var filters = [];
@@ -272,10 +366,59 @@
         this.set('filters', filters);
       },
 
+      buildReports: function (e) {
+        this.set('loadedReportData', e.detail);
+        this._updateGlobalReports();
+        this._updatePageReports();
+      },
+
       _updateReports: function () {
         if (this.reportData.aggregateReport) {
           this._updateGlobalReports();
         }
+      },
+
+      _compareReport: function () {
+        this.set('compareReports', []);
+
+        if (!this.compare.leftReport
+            || !this.compare.rightReport
+            || !this.compare.systemReport
+            || !this.compare.overtimeReport) {
+          return;
+        }
+
+        updateReports = function () {
+          var reports = [];
+          reports.push(this._prepareLineChart(
+                  this._findReport(this.reportData.overtimeReport, this.compare.overtimeReport),
+                  'overtimeReport',
+                  this.compare.leftReport,
+                  this.compare.rightReport
+          ));
+          reports.push(
+                  this._prepareLineChart(
+                          this._findReport(this.reportData.systemReport, this.compare.systemReport),
+                          'systemReport',
+                          this.compare.leftReport,
+                          this.compare.rightReport
+                  )
+          );
+
+          this.set('compareReports', reports);
+        }.bind(this);
+
+        this.debounce('compare-reports', updateReports, 50);
+      },
+
+      _findReport: function (stack, code) {
+        for (var i in stack) {
+          if (stack[i].dataCode == code) {
+            return stack[i]
+          }
+        }
+
+        return null;
       },
 
       _updatePage: function () {
@@ -312,11 +455,16 @@
       _updateGlobalReports: function () {
         var reports = [];
 
+        if (!this.loadedReportData.length) {
+          this.set('globalReports', reports);
+          return reports;
+        }
+
         for (var reportIndex in this.reportData.aggregateReport) {
           var reportConfig = this.reportData.aggregateReport[reportIndex];
           var axis = this._validateAxis(reportConfig.axis);
           var report = {
-            data: this._prepareChartData(
+            data: this._prepareBarChartData(
                     axis.axis,
                     this.filteredRecords,
                     'aggregateReport.' + reportConfig.dataCode
@@ -347,7 +495,7 @@
 
         this.set('pages', pages);
         if (pages.length) {
-          this.set('currentPageCode', pages[0].code)
+          this.set('currentPageCode', pages[0].code);
           this._updatePage();
         }
       },
@@ -355,11 +503,16 @@
       _updatePageReports: function () {
         var reports = [];
 
+        if (!this.loadedReportData.length) {
+          this.set('pageReports', reports);
+          return reports;
+        }
+
         for (var reportIndex in this.reportData.pageReport) {
           var reportConfig = this.reportData.pageReport[reportIndex];
           var axis = this._validateAxis(reportConfig.axis);
           var report = {
-            data: this._prepareChartData(
+            data: this._prepareBarChartData(
                     axis.axis,
                     this.filteredRecords,
                     'pageReport.' + reportConfig.dataCode + '.' + this.currentPage.code
@@ -385,7 +538,7 @@
         var fullLabels = false;
         var uniqueFilters = [];
 
-        var additionalInfo={data_set: 'Set: ', image_cache: 'Image: ', php: 'PHP: '};
+        var additionalInfo={data_set: 'Set: ', image_cache: 'Image: ', php: 'PHP: ', innodb: 'InnoDB: ', pressure: 'Pressure: '};
 
         for (var reportIndex in this.reportData.reports) {
           var report = this.reportData.reports[reportIndex];
@@ -413,8 +566,14 @@
           existingLegends.push(report.legend);
         }
 
+        var totalRecords = filteredReports.length;
+
+        var reportUrls = {};
+
         for (var reportIndex in filteredReports) {
           var report = filteredReports[reportIndex];
+          report.color = 'hsl(' + Math.floor((reportIndex / totalRecords) * 360) + ', 50%, 50%)';
+
           var additionalLabels = [];
           var additionalLegends = [];
 
@@ -429,11 +588,12 @@
           if (additionalLegends.length) {
             report.fullLegend += ' (' + additionalLegends.join(', ') + ')';
           }
+
+          reportUrls[report.code] = this.prefix + report.urlPath;
         }
 
         this.set('filteredRecords', filteredReports);
-        this._updateReports();
-        this._updatePage();
+        this.set('reportUrls', reportUrls);
       },
       _validateFilterSelected: function (availableFilters) {
         for (var filterIndex in this.filters) {
@@ -461,7 +621,7 @@
 
         return true;
       },
-      _prepareChartData: function (axis, records, propertyPath) {
+      _prepareBarChartData: function (axis, records, propertyPath) {
         var data = {
           labels: axis,
           datasets: []
@@ -471,20 +631,103 @@
           return a.position - b.position;
         });
 
-
         for (var reportIndex in records) {
           var report = records[reportIndex];
+          var reportData = this.loadedReportData[report.code] || {};
           var legend = report.fullLegend;
 
           data.datasets.push({
             label: legend,
             backgroundColor: report.color,
-            data: this.valueFetch(report, propertyPath)
+            data: this.valueFetch(reportData, propertyPath)
           });
         }
 
         return data;
       },
+      _prepareLineChart: function (reportConfig, propertyPath, leftCode, rightCode) {
+
+        var report = {};
+        var scales = {};
+
+        var leftReportData = this.loadedReportData[leftCode] || {};
+        var rightReportData = this.loadedReportData[rightCode] || {};
+
+        var leftData = this.valueFetch(leftReportData, propertyPath + '.'  + reportConfig.dataCode);
+        var rightData = this.valueFetch(rightReportData, propertyPath + '.' + reportConfig.dataCode);
+
+        report.leftReport = this.collectDataSets(leftData);
+        report.rightReport = this.collectDataSets(rightData);
+
+        var maximum = this.collectScaleMaximum(leftData, {});
+        maximum = this.collectScaleMaximum(rightData, maximum);
+
+        if (reportConfig.scales.xAxes) {
+          scales.xAxes = reportConfig.scales.xAxes;
+        }
+
+        scales.yAxes = [];
+        for (var i in reportConfig.scales.yAxes) {
+          var axes = reportConfig.scales.yAxes[i];
+          if (maximum[axes.id]) {
+            axes.ticks = axes.ticks || {};
+            axes.ticks.max = maximum[axes.id];
+            scales.yAxes.push(axes);
+          }
+        }
+
+        report.options = {
+          scales: scales
+        };
+
+        report.label = reportConfig.label;
+
+        return report;
+      },
+
+      collectScaleMaximum: function (data, maximum) {
+        for (var i in data) {
+          var dataset = data[i];
+
+          if (!maximum[dataset.yAxisID]) {
+            maximum[dataset.yAxisID] = 0;
+          }
+
+          maximum[dataset.yAxisID] = Math.max(dataset.max, maximum[dataset.yAxisID]);
+        }
+
+        return maximum;
+      },
+
+      collectDataSets: function (data) {
+        var datasets = [];
+        for (var i in data) {
+
+          var stepped = false;
+
+          if (data[i].yAxisID === 'second' && data[i].max === 1) {
+            stepped = true;
+          }
+
+          datasets.push({
+            label: i,
+            data: data[i].data.sort(function (a, b) { return a.x - b.x; }),
+            borderColor: data[i].color,
+            yAxisID: data[i].yAxisID,
+            stepped: stepped,
+            fill: false,
+            tension: 0,
+            borderWidth: 2,
+            pointRadius: 0
+          });
+        }
+
+        return {
+          datasets: datasets,
+          labels: []
+        };
+      },
+
       valueFetch: function (obj, path) {
         var properties = path.split('.');
 
