@@ -20,6 +20,7 @@
 <link rel="import" href="../../bower_components/chart-elements/chart-bar.html">
 <link rel="import" href="../../bower_components/chart-elements/chart-line.html">
 <link rel="import" href="../../bower_components/iron-resizable-behavior/iron-resizable-behavior.html">
+<link rel="import" href="../../bower_components/iron-location/iron-location.html">
 <script type="text/javascript" src="../../bower_components/chart.js/dist/Chart.min.js"></script>
 <link rel="import" href="report-data.html">
 
@@ -83,6 +84,8 @@
                on-response="fillData"></iron-ajax>
 
     <report-data reports="[[reportUrls]]" on-report-ready="buildReports"></report-data>
+
+    <iron-location query="{{queryParams}}"></iron-location>
 
     <app-toolbar>
       <paper-icon-button icon="menu" onclick="appDrawer.toggle()"></paper-icon-button>
@@ -182,7 +185,7 @@
               <div class="title">[[filter.label]]</div>
               <div class="layout horizontal wrap">
                 <template is="dom-repeat" items="{{filter.selections}}" as="option">
-                  <paper-checkbox value="[[option]]" checked="{{option.checked}}" on-change="_filterChange">[[option.option]]</paper-checkbox>
+                  <paper-checkbox value="[[option]]" checked="{{option.checked}}" on-iron-change="_filterChange">[[option.option]]</paper-checkbox>
                 </template>
               </div>
             </paper-card>
@@ -228,6 +231,11 @@
           value: function() {
             return {};
           }
+        },
+        queryParams: {
+          type: String,
+          notify: true,
+          value: ''
         },
         globalReports: {
           type: Array,
@@ -286,12 +294,10 @@
           value: []
         },
 
-
         filters: {
           type: Array,
           notify: true,
-          value: [],
-          observer: '_filterChange'
+          value: []
         },
         minDesktopScreenWidth: Number,
         screenWidth: Number,
@@ -301,7 +307,8 @@
         }
       },
       observers: [
-        '_updateReportView(viewStyle)'
+        '_updateReportView(viewStyle)',
+        '_filterByParams(queryParams)'
       ],
       attached: function() {
         this.async(this.notifyResize, 1);
@@ -338,7 +345,7 @@
         this.updateFilters(dataResults);
         this.set('reportData', dataResults);
         this._validateScreen();
-        this._filterChange();
+        this._filterByParams();
         this._updatePages();
       },
 
@@ -388,24 +395,26 @@
           return;
         }
 
-        updateReports = function () {
+        var updateReports = function () {
           var reports = [];
           reports.push(this._prepareLineChart(
-                  this._findReport(this.reportData.overtimeReport, this.compare.overtimeReport),
-                  'overtimeReport',
-                  this.compare.leftReport,
-                  this.compare.rightReport
+            this._findReport(this.reportData.overtimeReport, this.compare.overtimeReport),
+            'overtimeReport',
+            this.compare.leftReport,
+            this.compare.rightReport
           ));
           reports.push(
-                  this._prepareLineChart(
-                          this._findReport(this.reportData.systemReport, this.compare.systemReport),
-                          'systemReport',
-                          this.compare.leftReport,
-                          this.compare.rightReport
-                  )
+            this._prepareLineChart(
+                    this._findReport(this.reportData.systemReport, this.compare.systemReport),
+                    'systemReport',
+                    this.compare.leftReport,
+                    this.compare.rightReport
+            )
           );
 
           this.set('compareReports', reports);
+
+          this._filterChange();
         }.bind(this);
 
         this.debounce('compare-reports', updateReports, 50);
@@ -455,7 +464,7 @@
       _updateGlobalReports: function () {
         var reports = [];
 
-        if (!this.loadedReportData.length) {
+        if (!Object.getOwnPropertyNames(this.loadedReportData).length) {
           this.set('globalReports', reports);
           return reports;
         }
@@ -503,7 +512,7 @@
       _updatePageReports: function () {
         var reports = [];
 
-        if (!this.loadedReportData.length) {
+        if (!Object.getOwnPropertyNames(this.loadedReportData).length) {
           this.set('pageReports', reports);
           return reports;
         }
@@ -530,8 +539,29 @@
 
         this.set('pageReports', reports);
       },
+      _filterByParams: function () {
+        if (this.reportData) {
+          var query = this._collectSelectedFilters();
+
+          if (this.queryParams.length) {
+            if (query != this.queryParams) {
+              this._applySelectedFilters(this.queryParams);
+            }
+          }
+
+          this._filterData();
+        }
+      },
 
       _filterChange: function () {
+        var query = this._collectSelectedFilters();
+
+        if (query != this.queryParams) {
+          this.set('queryParams', query);
+        }
+      },
+
+      _filterData: function () {
         var filteredReports = [];
 
         var existingLegends = [];
@@ -594,7 +624,9 @@
 
         this.set('filteredRecords', filteredReports);
         this.set('reportUrls', reportUrls);
+        //this._compareReport();
       },
+
       _validateFilterSelected: function (availableFilters) {
         for (var filterIndex in this.filters) {
           if (!availableFilters[this.filters[filterIndex].code]) {
@@ -620,6 +652,82 @@
         }
 
         return true;
+      },
+      _collectSelectedFilters: function () {
+        var result = [];
+
+        for (var filterIndex in this.filters) {
+          var filter = this.filters[filterIndex];
+
+          var value = filter.selection;
+
+          if (filter.multiple) {
+            var options = [];
+            for (var i in filter.selections) {
+              var option = filter.selections[i];
+              if (option.checked) {
+                options.push(option.option);
+              }
+            }
+
+            value = options.join('|');
+          }
+
+          result.push(encodeURIComponent(filter.code) + '=' + encodeURIComponent(value));
+        }
+
+        if (this.compare.leftReport
+             && this.compare.rightReport
+             && this.compare.systemReport
+             && this.compare.overtimeReport) {
+          result.push(encodeURIComponent('compare.leftReport') + '=' + encodeURIComponent(this.compare.leftReport));
+          result.push(encodeURIComponent('compare.rightReport') + '=' + encodeURIComponent(this.compare.rightReport));
+          result.push(encodeURIComponent('compare.systemReport') + '=' + encodeURIComponent(this.compare.systemReport));
+          result.push(encodeURIComponent('compare.overtimeReport') + '=' + encodeURIComponent(this.compare.overtimeReport));
+        } else {
+          console.log(this.compare);
+        }
+
+
+
+        return result.join('&');
+      },
+      _applySelectedFilters: function (query) {
+        var filters = {};
+        query.split('&').forEach(function (pair) {
+          var values = pair.split('=');
+          if (values[0] && values[1]) {
+            filters[decodeURIComponent(values[0])] = decodeURIComponent(values[1]);
+          }
+        });
+
+        for (var filterCode in this.reportData.filters) {
+          var filter = this.reportData.filters[filterCode];
+
+          if (filters[filter.code]) {
+            var value = filters[filter.code];
+
+            if (filter.multiple) {
+              value = filters[filter.code].split('|');
+            }
+
+            filter.selection = value;
+          }
+        }
+
+        this.reportData.ignoreUpdate = true;
+        this.updateFilters(this.reportData);
+        this.reportData.ignoreUpdate = false;
+
+        if (filters['compare.rightReport']
+              && filters['compare.leftReport']
+              && filters['compare.systemReport']
+              && filters['compare.overtimeReport']) {
+          this.set('compare.rightReport', filters['compare.rightReport']);
+          this.set('compare.leftReport', filters['compare.leftReport']);
+          this.set('compare.systemReport', filters['compare.systemReport']);
+          this.set('compare.overtimeReport', filters['compare.overtimeReport']);
+        }
       },
       _prepareBarChartData: function (axis, records, propertyPath) {
         var data = {
