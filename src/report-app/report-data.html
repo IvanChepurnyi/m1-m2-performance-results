@@ -61,6 +61,13 @@
                 }
             },
 
+            cacheReportData: {
+                type: Object,
+                notify: true,
+                value: function() {
+                    return {};
+                }
+            },
 
             /**
              * Length of time in milliseconds to debounce multiple automatically generated requests.
@@ -115,6 +122,8 @@
          * Performs an AJAX request to the specified URL.
          */
         generateRequests: function() {
+            this.set('loadedReportData', {});
+
             for (var reportCode in this.reports) {
                 var request = /** @type {!IronRequestElement} */ (document.createElement('iron-request'));
 
@@ -131,12 +140,12 @@
                 request.send({
                     url: this.reports[reportCode],
                     method: 'GET',
-                    handleAs: 'json'
+                    handleAs: 'json',
+                    useCache: true
                 });
             }
 
             this.set('loading', true);
-            this.set('loadedReportData', {});
         },
 
         /**
@@ -170,7 +179,6 @@
             this.generateRequests();
         },
         _updateReportData: function() {
-            this.loadedReportData.length = 1;
             this.fire('report-ready', this.loadedReportData);
         }
     });
