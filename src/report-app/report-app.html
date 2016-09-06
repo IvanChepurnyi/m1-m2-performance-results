@@ -85,7 +85,7 @@
 
     <report-data reports="[[reportUrls]]" on-report-ready="buildReports"></report-data>
 
-    <iron-location query="{{queryParams}}"></iron-location>
+    <iron-location query="{{queryParams}}" url-space-regex="^/\?"></iron-location>
 
     <app-toolbar>
       <paper-icon-button icon="menu" onclick="appDrawer.toggle()"></paper-icon-button>
