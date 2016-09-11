@@ -245,26 +245,6 @@
                 "Max",
                 "Mean"
             ]
-        },
-        {
-            "dataCode": "indicatorPercent",
-            "label": "#Page Indicator Percent",
-            "axis": [
-                "<800ms",
-                ">800ms <1200ms",
-                ">1200ms",
-                "Failed"
-            ]
-        },
-        {
-            "dataCode": "indicatorCount",
-            "label": "#Page Indicator Count",
-            "axis": [
-                "<800ms",
-                ">800ms <1200ms",
-                ">1200ms",
-                "Failed"
-            ]
         }
     ],
     "systemReport": [
