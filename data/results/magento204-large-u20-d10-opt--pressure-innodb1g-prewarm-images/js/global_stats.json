@@ -1,73 +1,73 @@
 {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 20812,
-        "ok": 20809,
-        "ko": 3
+        "total": 19148,
+        "ok": 19147,
+        "ko": 1
     },
     "minResponseTime": {
         "total": 1,
         "ok": 1,
-        "ko": 1067
+        "ko": 1313
     },
     "maxResponseTime": {
-        "total": 19012,
-        "ok": 19012,
-        "ko": 1461
+        "total": 19015,
+        "ok": 19015,
+        "ko": 1313
     },
     "meanResponseTime": {
-        "total": 360,
-        "ok": 360,
-        "ko": 1219
+        "total": 412,
+        "ok": 411,
+        "ko": 1313
     },
     "standardDeviation": {
-        "total": 653,
-        "ok": 653,
-        "ko": 172
+        "total": 674,
+        "ok": 674,
+        "ko": 0
     },
     "percentiles1": {
-        "total": 6,
-        "ok": 6,
-        "ko": 1129
+        "total": 7,
+        "ok": 7,
+        "ko": 1313
     },
     "percentiles2": {
-        "total": 556,
-        "ok": 556,
-        "ko": 1295
+        "total": 636,
+        "ok": 636,
+        "ko": 1313
     },
     "percentiles3": {
-        "total": 1403,
-        "ok": 1403,
-        "ko": 1427
+        "total": 1627,
+        "ok": 1627,
+        "ko": 1313
     },
     "percentiles4": {
-        "total": 1997,
-        "ok": 1997,
-        "ko": 1454
+        "total": 2264,
+        "ok": 2264,
+        "ko": 1313
     },
     "group1": {
         "name": "t < 800 ms",
-        "count": 17828,
-        "percentage": 86
+        "count": 15817,
+        "percentage": 83
     },
     "group2": {
         "name": "800 ms < t < 1200 ms",
-        "count": 1358,
+        "count": 1275,
         "percentage": 7
     },
     "group3": {
         "name": "t > 1200 ms",
-        "count": 1623,
-        "percentage": 8
+        "count": 2055,
+        "percentage": 11
     },
     "group4": {
         "name": "failed",
-        "count": 3,
+        "count": 1,
         "percentage": 0
     },
     "meanNumberOfRequestsPerSecond": {
-        "total": 33.087440381558025,
-        "ok": 33.08267090620032,
-        "ko": 0.0047694753577106515
+        "total": 30.441971383147855,
+        "ok": 30.440381558028616,
+        "ko": 0.001589825119236884
     }
 }

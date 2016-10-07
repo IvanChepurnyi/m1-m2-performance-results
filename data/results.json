@@ -5674,6 +5674,25 @@
             "urlPath": "magento202-original-u20-d10-fixed-opt--light-innodb1g-prewarm-images/info.json"
         },
         {
+            "code": "magento202-original-u20-d10-fixed-opt--light-innodb256m-prewarm-images",
+            "path": "magento202-original-u20-d10-fixed-opt--light-innodb256m-prewarm-images/index.html",
+            "legend": "2.0.2 Fixed",
+            "description": "Default CE 2.0.2 with fixed PageCache and no calls to ajax review block",
+            "position": 22,
+            "filter": {
+                "version": "2.0.2",
+                "configuration": "2.x Fixed",
+                "data_set": "Original",
+                "users": 20,
+                "duration": 10,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M",
+                "pressure": "No"
+            },
+            "urlPath": "magento202-original-u20-d10-fixed-opt--light-innodb256m-prewarm-images/info.json"
+        },
+        {
             "code": "magento202-original-u20-d10-fixed-opt--light-innodb512m-prewarm-images",
             "path": "magento202-original-u20-d10-fixed-opt--light-innodb512m-prewarm-images/index.html",
             "legend": "2.0.2 Fixed",
@@ -9605,6 +9624,25 @@
                 "pressure": "No"
             },
             "urlPath": "magento204-original-u20-d10-conf-opt--light-innodb512m-prewarm-images/info.json"
+        },
+        {
+            "code": "magento204-original-u20-d10-conf-opt--pressure-innodb1g-prewarm-images",
+            "path": "magento204-original-u20-d10-conf-opt--pressure-innodb1g-prewarm-images/index.html",
+            "legend": "2.0.4 Disabled Modules",
+            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
+            "position": 17,
+            "filter": {
+                "version": "2.0.4",
+                "configuration": "2.x Disabled Modules",
+                "data_set": "Original",
+                "users": 20,
+                "duration": 10,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "1G",
+                "pressure": "Yes"
+            },
+            "urlPath": "magento204-original-u20-d10-conf-opt--pressure-innodb1g-prewarm-images/info.json"
         },
         {
             "code": "magento204-original-u20-d10-conf-opt--pressure-innodb256m-prewarm-images",
@@ -20741,6 +20779,25 @@
             "urlPath": "magento209-large-u20-d10-pressure-innodb1g-prewarm-images/info.json"
         },
         {
+            "code": "magento209-large-u20-d10-pressure-innodb256m-prewarm-images",
+            "path": "magento209-large-u20-d10-pressure-innodb256m-prewarm-images/index.html",
+            "legend": "2.0.9 Default",
+            "description": "Default CE 2.0.9",
+            "position": 8,
+            "filter": {
+                "version": "2.0.9",
+                "configuration": "2.x Default",
+                "data_set": "Large",
+                "users": 20,
+                "duration": 10,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "256M",
+                "pressure": "Yes"
+            },
+            "urlPath": "magento209-large-u20-d10-pressure-innodb256m-prewarm-images/info.json"
+        },
+        {
             "code": "magento209-large-u20-d10-pressure-innodb512m-prewarm-images",
             "path": "magento209-large-u20-d10-pressure-innodb512m-prewarm-images/index.html",
             "legend": "2.0.9 Default",
@@ -23133,6 +23190,25 @@
                 "pressure": "No"
             },
             "urlPath": "magento210-default-u20-d10-fixed-opt--light-innodb512m-prewarm-images/info.json"
+        },
+        {
+            "code": "magento210-default-u20-d10-fixed-opt--pressure-innodb1g-prewarm-images",
+            "path": "magento210-default-u20-d10-fixed-opt--pressure-innodb1g-prewarm-images/index.html",
+            "legend": "2.1.0 Fixed",
+            "description": "Default CE 2.1.0 with fixed PageCache and no calls to ajax review block",
+            "position": 27,
+            "filter": {
+                "version": "2.1.0",
+                "configuration": "2.x Fixed",
+                "data_set": "Default",
+                "users": 20,
+                "duration": 10,
+                "image_cache": "Warm",
+                "php": "7.0",
+                "innodb": "1G",
+                "pressure": "Yes"
+            },
+            "urlPath": "magento210-default-u20-d10-fixed-opt--pressure-innodb1g-prewarm-images/info.json"
         },
         {
             "code": "magento210-default-u20-d10-fixed-opt--pressure-innodb256m-prewarm-images",

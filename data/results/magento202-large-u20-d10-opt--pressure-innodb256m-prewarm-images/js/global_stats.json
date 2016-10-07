@@ -1,73 +1,73 @@
 {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 17113,
-        "ok": 17113,
-        "ko": 0
+        "total": 20157,
+        "ok": 20154,
+        "ko": 3
     },
     "minResponseTime": {
         "total": 1,
         "ok": 1,
-        "ko": 0
+        "ko": 1635
     },
     "maxResponseTime": {
-        "total": 20705,
-        "ok": 20705,
-        "ko": 0
+        "total": 15165,
+        "ok": 15165,
+        "ko": 7054
     },
     "meanResponseTime": {
-        "total": 485,
-        "ok": 485,
-        "ko": 0
+        "total": 383,
+        "ok": 383,
+        "ko": 3661
     },
     "standardDeviation": {
-        "total": 807,
-        "ok": 807,
-        "ko": 0
+        "total": 628,
+        "ok": 626,
+        "ko": 2413
     },
     "percentiles1": {
-        "total": 8,
-        "ok": 8,
-        "ko": 0
+        "total": 7,
+        "ok": 7,
+        "ko": 2296
     },
     "percentiles2": {
-        "total": 741,
-        "ok": 741,
-        "ko": 0
+        "total": 589,
+        "ok": 589,
+        "ko": 4675
     },
     "percentiles3": {
-        "total": 1905,
-        "ok": 1905,
-        "ko": 0
+        "total": 1517,
+        "ok": 1516,
+        "ko": 6578
     },
     "percentiles4": {
-        "total": 2673,
-        "ok": 2673,
-        "ko": 0
+        "total": 2172,
+        "ok": 2169,
+        "ko": 6958
     },
     "group1": {
         "name": "t < 800 ms",
-        "count": 13387,
-        "percentage": 78
+        "count": 17043,
+        "percentage": 85
     },
     "group2": {
         "name": "800 ms < t < 1200 ms",
-        "count": 1508,
-        "percentage": 9
+        "count": 1252,
+        "percentage": 6
     },
     "group3": {
         "name": "t > 1200 ms",
-        "count": 2218,
-        "percentage": 13
+        "count": 1859,
+        "percentage": 9
     },
     "group4": {
         "name": "failed",
-        "count": 0,
+        "count": 3,
         "percentage": 0
     },
     "meanNumberOfRequestsPerSecond": {
-        "total": 27.206677265500794,
-        "ok": 27.206677265500794,
-        "ko": 0
+        "total": 32.04610492845787,
+        "ok": 32.04133545310016,
+        "ko": 0.0047694753577106515
     }
 }

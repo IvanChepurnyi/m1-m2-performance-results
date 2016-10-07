@@ -1,73 +1,73 @@
 {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 19617,
-        "ok": 19594,
-        "ko": 23
+        "total": 22404,
+        "ok": 22385,
+        "ko": 19
     },
     "minResponseTime": {
         "total": 1,
         "ok": 1,
-        "ko": 179
+        "ko": 210
     },
     "maxResponseTime": {
-        "total": 51969,
-        "ok": 50060,
-        "ko": 51969
+        "total": 39459,
+        "ok": 39459,
+        "ko": 778
     },
     "meanResponseTime": {
-        "total": 408,
-        "ok": 371,
-        "ko": 31420
+        "total": 321,
+        "ok": 321,
+        "ko": 445
     },
     "standardDeviation": {
-        "total": 2033,
-        "ok": 1511,
-        "ko": 24882
+        "total": 1434,
+        "ok": 1435,
+        "ko": 138
     },
     "percentiles1": {
-        "total": 11,
-        "ok": 11,
-        "ko": 51130
+        "total": 10,
+        "ok": 10,
+        "ko": 438
     },
     "percentiles2": {
-        "total": 427,
-        "ok": 426,
-        "ko": 51457
+        "total": 404,
+        "ok": 403,
+        "ko": 513
     },
     "percentiles3": {
-        "total": 1284,
-        "ok": 1280,
-        "ko": 51743
+        "total": 914,
+        "ok": 915,
+        "ko": 684
     },
     "percentiles4": {
-        "total": 1855,
-        "ok": 1816,
-        "ko": 51919
+        "total": 1339,
+        "ok": 1339,
+        "ko": 759
     },
     "group1": {
         "name": "t < 800 ms",
-        "count": 17109,
-        "percentage": 87
+        "count": 20669,
+        "percentage": 92
     },
     "group2": {
         "name": "800 ms < t < 1200 ms",
-        "count": 1253,
+        "count": 1381,
         "percentage": 6
     },
     "group3": {
         "name": "t > 1200 ms",
-        "count": 1232,
-        "percentage": 6
+        "count": 335,
+        "percentage": 1
     },
     "group4": {
         "name": "failed",
-        "count": 23,
+        "count": 19,
         "percentage": 0
     },
     "meanNumberOfRequestsPerSecond": {
-        "total": 30.747648902821318,
-        "ok": 30.711598746081506,
-        "ko": 0.03605015673981191
+        "total": 35.61844197138315,
+        "ok": 35.588235294117645,
+        "ko": 0.030206677265500796
     }
 }
