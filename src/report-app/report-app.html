@@ -73,6 +73,12 @@
         font-size: 12px;
       }
 
+      .report-container {
+        @apply(--layout-flex-2);
+        @apply(--layout-horizontal);
+        @apply(--layout-wrap);
+      }
+
       .small-chart {
         width: 50%;
       }
@@ -103,17 +109,35 @@
 
 
     <paper-card class="wide">
-      <h4>One to One Report</h4>
+      <h4>Comparison Report</h4>
       <div class="horizontal layout">
-        <paper-dropdown-menu label="Left Report" class="flex">
-          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.leftReport}}" on-iron-select="_compareReport">
+        <paper-dropdown-menu label="First Report" class="flex">
+          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.firstReport}}" on-iron-select="_compareReport">
             <template is="dom-repeat" items="[[filteredRecords]]" as="report">
               <paper-item value="[[report.code]]">[[report.fullLabel]]</paper-item>
             </template>
           </paper-listbox>
         </paper-dropdown-menu>
-        <paper-dropdown-menu label="Right Report" class="flex">
-          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.rightReport}}" on-iron-select="_compareReport">
+        <paper-dropdown-menu label="First Report" class="flex">
+          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.secondReport}}" on-iron-select="_compareReport">
+            <template is="dom-repeat" items="[[filteredRecords]]" as="report">
+              <paper-item value="[[report.code]]">[[report.fullLabel]]</paper-item>
+            </template>
+          </paper-listbox>
+        </paper-dropdown-menu>
+
+        <paper-dropdown-menu label="Third Report" class="flex">
+          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.thirdReport}}" on-iron-select="_compareReport">
+            <paper-item value="">--No Report--</paper-item>
+            <template is="dom-repeat" items="[[filteredRecords]]" as="report">
+              <paper-item value="[[report.code]]">[[report.fullLabel]]</paper-item>
+            </template>
+          </paper-listbox>
+        </paper-dropdown-menu>
+
+        <paper-dropdown-menu label="Forth Report" class="flex">
+          <paper-listbox class="dropdown-content" attr-for-selected="value" selected="{{compare.forthReport}}" on-iron-select="_compareReport">
+            <paper-item value="">--No report--</paper-item>
             <template is="dom-repeat" items="[[filteredRecords]]" as="report">
               <paper-item value="[[report.code]]">[[report.fullLabel]]</paper-item>
             </template>
@@ -140,9 +164,15 @@
 
       <template is="dom-repeat" items="[[compareReports]]" as="report">
         <h4>[[report.label]]</h4>
-        <div class="layout horizontal wrap">
-          <chart-line data="{{report.leftReport}}" options="{{report.options}}" class="small-chart"></chart-line>
-          <chart-line data="{{report.rightReport}}" options="{{report.options}}" class="small-chart"></chart-line>
+        <div class="report-container">
+          <chart-line data="{{report.firstReport}}" options="{{report.options}}" class="small-chart"></chart-line>
+          <chart-line data="{{report.secondReport}}" options="{{report.options}}" class="small-chart"></chart-line>
+          <template is="dom-if" if="[[report.thirdReport]]">
+            <chart-line data="{{report.thirdReport}}" options="{{report.options}}" class="small-chart"></chart-line>
+          </template>
+          <template is="dom-if" if="[[report.forthReport]]">
+            <chart-line data="{{report.forthReport}}" options="{{report.options}}" class="small-chart"></chart-line>
+          </template>
         </div>
       </template>
     </paper-card>
@@ -388,8 +418,8 @@
       _compareReport: function () {
         this.set('compareReports', []);
 
-        if (!this.compare.leftReport
-            || !this.compare.rightReport
+        if (!this.compare.firstReport
+            || !this.compare.secondReport
             || !this.compare.systemReport
             || !this.compare.overtimeReport) {
           return;
@@ -400,15 +430,23 @@
           reports.push(this._prepareLineChart(
             this._findReport(this.reportData.overtimeReport, this.compare.overtimeReport),
             'overtimeReport',
-            this.compare.leftReport,
-            this.compare.rightReport
+            [
+                this.compare.firstReport,
+                this.compare.secondReport,
+                this.compare.thirdReport,
+                this.compare.forthReport
+            ]
           ));
           reports.push(
             this._prepareLineChart(
                     this._findReport(this.reportData.systemReport, this.compare.systemReport),
                     'systemReport',
-                    this.compare.leftReport,
-                    this.compare.rightReport
+                    [
+                        this.compare.firstReport,
+                        this.compare.secondReport,
+                        this.compare.thirdReport,
+                        this.compare.forthReport
+                    ]
             )
           );
 
@@ -676,12 +714,15 @@
           result.push(encodeURIComponent(filter.code) + '=' + encodeURIComponent(value));
         }
 
-        if (this.compare.leftReport
-             && this.compare.rightReport
+        if (this.compare.firstReport
+             && this.compare.secondReport
              && this.compare.systemReport
              && this.compare.overtimeReport) {
-          result.push(encodeURIComponent('compare.leftReport') + '=' + encodeURIComponent(this.compare.leftReport));
-          result.push(encodeURIComponent('compare.rightReport') + '=' + encodeURIComponent(this.compare.rightReport));
+          result.push(encodeURIComponent('compare.firstReport') + '=' + encodeURIComponent(this.compare.firstReport));
+          result.push(encodeURIComponent('compare.secondReport') + '=' + encodeURIComponent(this.compare.secondReport));
+          if (this.compare.thirdReport) {
+              result.push(encodeURIComponent('compare.thirdReport') + '=' + encodeURIComponent(this.compare.thirdReport));
+          }
           result.push(encodeURIComponent('compare.systemReport') + '=' + encodeURIComponent(this.compare.systemReport));
           result.push(encodeURIComponent('compare.overtimeReport') + '=' + encodeURIComponent(this.compare.overtimeReport));
         } else {
@@ -719,12 +760,14 @@
         this.updateFilters(this.reportData);
         this.reportData.ignoreUpdate = false;
 
-        if (filters['compare.rightReport']
-              && filters['compare.leftReport']
+        if (filters['compare.firstReport']
+              && filters['compare.secondReport']
               && filters['compare.systemReport']
               && filters['compare.overtimeReport']) {
-          this.set('compare.rightReport', filters['compare.rightReport']);
-          this.set('compare.leftReport', filters['compare.leftReport']);
+          this.set('compare.firstReport', filters['compare.firstReport']);
+          this.set('compare.secondReport', filters['compare.secondReport']);
+          this.set('compare.thirdReport', filters['compare.thirdReport'] || '');
+          this.set('compare.forthReport', filters['compare.forthReport'] || '');
           this.set('compare.systemReport', filters['compare.systemReport']);
           this.set('compare.overtimeReport', filters['compare.overtimeReport']);
         }
@@ -753,22 +796,38 @@
 
         return data;
       },
-      _prepareLineChart: function (reportConfig, propertyPath, leftCode, rightCode) {
+      _prepareLineChart: function (reportConfig, propertyPath, codes) {
 
         var report = {};
         var scales = {};
 
-        var leftReportData = this.loadedReportData[leftCode] || {};
-        var rightReportData = this.loadedReportData[rightCode] || {};
+        var indexToCode = [
+            'firstReport',
+            'secondReport',
+            'thirdReport',
+            'forthReport'
+        ];
 
-        var leftData = this.valueFetch(leftReportData, propertyPath + '.'  + reportConfig.dataCode);
-        var rightData = this.valueFetch(rightReportData, propertyPath + '.' + reportConfig.dataCode);
+        var maximum = {};
 
-        report.leftReport = this.collectDataSets(leftData);
-        report.rightReport = this.collectDataSets(rightData);
+        for (var i in codes) {
+            var code = codes[i];
+            var reportCode = indexToCode[i];
+            if (!this.loadedReportData[code]) {
+                continue;
+            }
 
-        var maximum = this.collectScaleMaximum(leftData, {});
-        maximum = this.collectScaleMaximum(rightData, maximum);
+            var reportData = this.valueFetch(
+                this.loadedReportData[code],
+                propertyPath + '.'  + reportConfig.dataCode
+            );
+
+            report[reportCode] = this.collectDataSets(
+              reportData
+            );
+
+            maximum = this.collectScaleMaximum(reportData, maximum);
+        }
 
         if (reportConfig.scales.xAxes) {
           scales.xAxes = reportConfig.scales.xAxes;
