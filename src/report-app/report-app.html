@@ -21,7 +21,8 @@
 <link rel="import" href="../../bower_components/chart-elements/chart-line.html">
 <link rel="import" href="../../bower_components/iron-resizable-behavior/iron-resizable-behavior.html">
 <link rel="import" href="../../bower_components/iron-location/iron-location.html">
-<script type="text/javascript" src="../../bower_components/chart.js/dist/Chart.min.js"></script>
+<link rel="import" href="../../bower_components/clipboard-input/clipboard-input.html">
+
 <link rel="import" href="report-data.html">
 
 
@@ -91,7 +92,7 @@
 
     <report-data reports="[[reportUrls]]" on-report-ready="buildReports"></report-data>
 
-    <iron-location query="{{queryParams}}"></iron-location>
+    <iron-location id="location" query="{{queryParams}}" hash="{{currentView}}" url-space-regex="^/\?"></iron-location>
 
     <app-toolbar>
       <paper-icon-button icon="menu" onclick="appDrawer.toggle()"></paper-icon-button>
@@ -163,7 +164,8 @@
 
 
       <template is="dom-repeat" items="[[compareReports]]" as="report">
-        <h4>[[report.label]]</h4>
+        <h3 id="compare{{report.code}}">[[report.label]] <clipboard-input value="[[currentUrl]]#compare{{report.code}}"></clipboard-input></h3>
+       
         <div class="report-container">
           <chart-line data="{{report.firstReport}}" options="{{report.options}}" class="small-chart"></chart-line>
           <chart-line data="{{report.secondReport}}" options="{{report.options}}" class="small-chart"></chart-line>
@@ -178,7 +180,8 @@
     </paper-card>
 
     <template is="dom-repeat" items="{{globalReports}}" as="report">
-      <paper-card class="wide" heading="{{report.label}}">
+      <paper-card class="wide" >
+      	<h3 id="global{{report.code}}">{{report.label}} <clipboard-input value="[[currentUrl]]#global{{report.code}}"></clipboard-input></h3>
         <chart-bar class="wide" data="{{report.data}}" options="{{report.options}}"></chart-bar>
         <template is="dom-repeat" items="{{report.abbreviation}}" as="abbreviation">
           <div class="small">{{abbreviation}}</div>
@@ -200,6 +203,7 @@
 
     <template is="dom-repeat" items="{{pageReports}}" as="report">
       <paper-card class="wide" heading="{{report.label}}">
+        <h3 id="page{{report.code}}">{{report.label}} <clipboard-input value="[[currentUrl]]#page{{report.code}}"></clipboard-input></h3>
         <chart-bar class="wide" data="{{report.data}}" options="{{report.options}}"></chart-bar>
         <template is="dom-repeat" items="{{report.abbreviation}}" as="abbreviation">
           <div class="small">{{abbreviation}}</div>
@@ -255,6 +259,7 @@
         heading: String,
         url: String,
         prefix: String,
+		currentUrl: String,
         reportUrls: {
           type: Object,
           notify: true,
@@ -334,11 +339,13 @@
         viewStyle: {
           type: String,
           value: 'desktop'
-        }
+        },
+		currentView: String
       },
       observers: [
         '_updateReportView(viewStyle)',
-        '_filterByParams(queryParams)'
+        '_filterByParams(queryParams)',
+		'_scrollToViewOfCurrentView(currentView)'
       ],
       attached: function() {
         this.async(this.notifyResize, 1);
@@ -352,6 +359,20 @@
       _stringify: function (value) {
         return JSON.stringify(value);
       },
+	  _scrollToViewOfCurrentView: function () {
+		 if (this.currentView) {
+			this.async(this._notifyScrollView, 1);
+		 }
+	  },
+	  _notifyScrollView: function() {
+		 var view = this.currentView.replace('#', '');
+		 if (document.getElementById(view) && this.globalReports.length) {
+			 document.getElementById(view).scrollIntoView();
+			 return;
+	  	 }
+		 
+		 this.async(this._notifyScrollView, 1);
+	  },
       _onIronResize: function() {
         this.screenWidth = Math.floor(this.parent.offsetWidth);
         this._validateScreen();
@@ -511,6 +532,7 @@
           var reportConfig = this.reportData.aggregateReport[reportIndex];
           var axis = this._validateAxis(reportConfig.axis);
           var report = {
+			code: reportConfig.dataCode,
             data: this._prepareBarChartData(
                     axis.axis,
                     this.filteredRecords,
@@ -559,6 +581,8 @@
           var reportConfig = this.reportData.pageReport[reportIndex];
           var axis = this._validateAxis(reportConfig.axis);
           var report = {
+			  
+			code: reportConfig.dataCode,
             data: this._prepareBarChartData(
                     axis.axis,
                     this.filteredRecords,
@@ -586,9 +610,12 @@
               this._applySelectedFilters(this.queryParams);
             }
           }
-
           this._filterData();
         }
+		
+		var location = window.location;
+		
+		this.set('currentUrl', location.protocol + '//' + location.host + location.pathname + location.search);
       },
 
       _filterChange: function () {
@@ -723,13 +750,12 @@
           if (this.compare.thirdReport) {
               result.push(encodeURIComponent('compare.thirdReport') + '=' + encodeURIComponent(this.compare.thirdReport));
           }
+		   if (this.compare.forthReport) {
+              result.push(encodeURIComponent('compare.forthReport') + '=' + encodeURIComponent(this.compare.forthReport));
+          }
           result.push(encodeURIComponent('compare.systemReport') + '=' + encodeURIComponent(this.compare.systemReport));
           result.push(encodeURIComponent('compare.overtimeReport') + '=' + encodeURIComponent(this.compare.overtimeReport));
-        } else {
-          console.log(this.compare);
         }
-
-
 
         return result.join('&');
       },
@@ -848,6 +874,7 @@
         };
 
         report.label = reportConfig.label;
+		report.code = reportConfig.dataCode;
 
         return report;
       },
