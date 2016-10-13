@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 module.exports = function(Chart) {
 
@@ -30,7 +30,7 @@ module.exports = function(Chart) {
 
 		// These methods are ordered by lifecyle. Utilities then follow.
 
-		beforeUpdate: function () {
+		beforeUpdate: function() {
 			var chartOpts = this.chart.options;
 			if (chartOpts && chartOpts.title) {
 				this.options = helpers.configMerge(Chart.defaults.global.title, chartOpts.title);
@@ -111,9 +111,7 @@ module.exports = function(Chart) {
 
 		beforeFit: noop,
 		fit: function() {
-
 			var me = this,
-				ctx = me.ctx,
 				valueOrDefault = helpers.getValueOrDefault,
 				opts = me.options,
 				globalDefaults = Chart.defaults.global,
@@ -138,7 +136,7 @@ module.exports = function(Chart) {
 		// Shared Methods
 		isHorizontal: function() {
 			var pos = this.options.position;
-			return pos === "top" || pos === "bottom";
+			return pos === 'top' || pos === 'bottom';
 		},
 
 		// Actualy draw the title block on the canvas

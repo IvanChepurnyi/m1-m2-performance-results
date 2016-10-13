@@ -1,9 +1,8 @@
-"use strict";
+'use strict';
 
 module.exports = function(Chart) {
 
-	var helpers = Chart.helpers,
-		globalOpts = Chart.defaults.global;
+	var globalOpts = Chart.defaults.global;
 
 	globalOpts.elements.rectangle = {
 		backgroundColor: globalOpts.defaultColor,
@@ -46,11 +45,12 @@ module.exports = function(Chart) {
 				[rightX, vm.base]
 			];
 
-			// Find first (starting) corner with fallback to 'bottom' 
+			// Find first (starting) corner with fallback to 'bottom'
 			var borders = ['bottom', 'left', 'top', 'right'];
 			var startCorner = borders.indexOf(vm.borderSkipped, 0);
-			if (startCorner === -1)
+			if (startCorner === -1) {
 				startCorner = 0;
+			}
 
 			function cornerAt(index) {
 				return corners[(startCorner + index) % 4];
@@ -58,8 +58,9 @@ module.exports = function(Chart) {
 
 			// Draw rectangle from 'startCorner'
 			ctx.moveTo.apply(ctx, cornerAt(0));
-			for (var i = 1; i < 4; i++)
+			for (var i = 1; i < 4; i++) {
 				ctx.lineTo.apply(ctx, cornerAt(i));
+			}
 
 			ctx.fill();
 			if (vm.borderWidth) {
@@ -72,8 +73,8 @@ module.exports = function(Chart) {
 		},
 		inRange: function(mouseX, mouseY) {
 			var vm = this._view;
-			return vm ? 
-					(vm.y < vm.base ? 
+			return vm ?
+					(vm.y < vm.base ?
 						(mouseX >= vm.x - vm.width / 2 && mouseX <= vm.x + vm.width / 2) && (mouseY >= vm.y && mouseY <= vm.base) :
 						(mouseX >= vm.x - vm.width / 2 && mouseX <= vm.x + vm.width / 2) && (mouseY >= vm.base && mouseY <= vm.y)) :
 					false;

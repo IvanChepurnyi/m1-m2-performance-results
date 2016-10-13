@@ -2,21 +2,21 @@
 
 [![Build Status](https://travis-ci.org/chartjs/Chart.js.svg?branch=master)](https://travis-ci.org/chartjs/Chart.js) [![Code Climate](https://codeclimate.com/github/nnnick/Chart.js/badges/gpa.svg)](https://codeclimate.com/github/nnnick/Chart.js) [![Coverage Status](https://coveralls.io/repos/github/chartjs/Chart.js/badge.svg?branch=master)](https://coveralls.io/github/chartjs/Chart.js?branch=master)
 
-[![Chart.js on Slack](https://img.shields.io/badge/slack-Chart.js-blue.svg)](https://chartjs-slack-automation.herokuapp.com/)
+[![Chart.js on Slack](https://img.shields.io/badge/slack-Chart.js-blue.svg)](https://chart-js-automation.herokuapp.com/)
 
 *Simple HTML5 Charts using the canvas element* [chartjs.org](http://www.chartjs.org)
 
 ## Installation
 
-To download a zip, go to the Chart.js on Github
+You can download the latest version of [Chart.js on GitHub](https://github.com/chartjs/Chart.js/releases/latest) or just use these [Chart.js CDN](https://cdnjs.com/libraries/Chart.js) links.
 
-To install via npm / bower:
+To install via npm:
 
 ```bash
 npm install chart.js --save
-bower install Chart.js --save
 ```
-CDN: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js
+
+To Install via bower, please follow [these instructions](http://www.chartjs.org/docs/#getting-started-installation).
 
 ## Documentation
 
@@ -29,7 +29,14 @@ Before submitting an issue or a pull request to the project, please take a momen
 For support using Chart.js, please post questions with the [`chartjs` tag on Stack Overflow](http://stackoverflow.com/questions/tagged/chartjs).
 
 ## Building and Testing
-`gulp build`, `gulp test`
+
+To build, run `gulp build`.
+
+To test, run `gulp test`.
+
+To test against code standards, run `gulp lint`.
+
+More information on building and testing can be found in [gulpfile.js](gulpfile.js).
 
 Thanks to [BrowserStack](https://browserstack.com) for allowing our team to test on thousands of browsers.
 

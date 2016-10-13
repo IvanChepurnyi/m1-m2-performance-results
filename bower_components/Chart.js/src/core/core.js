@@ -1,12 +1,16 @@
-"use strict";
+'use strict';
 
 module.exports = function() {
 
-	//Occupy the global variable of Chart, and create a simple base class
+	// Occupy the global variable of Chart, and create a simple base class
 	var Chart = function(context, config) {
 		var me = this;
 		var helpers = Chart.helpers;
-		me.config = config;
+		me.config = config || {
+			data: {
+				datasets: []
+			}
+		};
 
 		// Support a jQuery'd canvas element
 		if (context.length && context[0].getContext) {
@@ -15,7 +19,7 @@ module.exports = function() {
 
 		// Support a canvas domnode
 		if (context.getContext) {
-			context = context.getContext("2d");
+			context = context.getContext('2d');
 		}
 
 		me.ctx = context;
@@ -45,10 +49,7 @@ module.exports = function() {
 
 		// High pixel density displays - multiply the size of the canvas height/width by the device pixel ratio, then scale.
 		helpers.retinaScale(me);
-
-		if (config) {
-			me.controller = new Chart.Controller(me);
-		}
+		me.controller = new Chart.Controller(me);
 
 		// Always bind this so that if the responsive state changes we still work
 		helpers.addResizeListener(context.canvas.parentNode, function() {
@@ -61,13 +62,13 @@ module.exports = function() {
 
 	};
 
-	//Globally expose the defaults to allow for user updating/changing
+	// Globally expose the defaults to allow for user updating/changing
 	Chart.defaults = {
 		global: {
 			responsive: true,
 			responsiveAnimationDuration: 0,
 			maintainAspectRatio: true,
-			events: ["mousemove", "mouseout", "click", "touchstart", "touchmove"],
+			events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
 			hover: {
 				onHover: null,
 				mode: 'single',
@@ -97,7 +98,7 @@ module.exports = function() {
 				}
 				text.push('</ul>');
 
-				return text.join("");
+				return text.join('');
 			}
 		}
 	};
