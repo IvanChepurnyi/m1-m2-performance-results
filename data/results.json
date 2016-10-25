@@ -2,7 +2,7 @@
     "legends": {
         "1.9.2.4 MageCore": "Original MageCore Inc. CE 1.9.2.4 Benchmark",
         "1.9.2.4 Default": "Default Behaviour CE 1.9.2.4 Behaviour with EcomDev_Varnish",
-        "1.9.2.4 ORO": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
+        "1.9.2.4 ORO_Ajax": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
         "2.0.2 MageCore": "Original MageCore Inc. CE 2.0.2 Benchmark",
         "2.0.2 Default": "Default CE 2.0.2",
         "2.0.4 Default": "Default CE 2.0.4",
@@ -51,7 +51,6 @@
             "label": "Configuration",
             "multiple": true,
             "selection": [
-                "MageCore Original",
                 "1.9.x Oro Ajax",
                 "2.x Default",
                 "2.x Fixed"
@@ -71,7 +70,7 @@
             "label": "Database Set",
             "multiple": true,
             "selection": [
-                "Original"
+                "Default"
             ],
             "options": [
                 "Default",
@@ -1458,7 +1457,7 @@
         {
             "code": "magento192oro-default-u10-d5-light-innodb1g-prewarm-images",
             "path": "magento192oro-default-u10-d5-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1477,7 +1476,7 @@
         {
             "code": "magento192oro-default-u10-d5-light-innodb256m-prewarm-images",
             "path": "magento192oro-default-u10-d5-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1496,7 +1495,7 @@
         {
             "code": "magento192oro-default-u10-d5-light-innodb512m-prewarm-images",
             "path": "magento192oro-default-u10-d5-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1515,7 +1514,7 @@
         {
             "code": "magento192oro-default-u10-d5-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-default-u10-d5-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1534,7 +1533,7 @@
         {
             "code": "magento192oro-default-u10-d5-pressure-innodb256m-prewarm-images",
             "path": "magento192oro-default-u10-d5-pressure-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1553,7 +1552,7 @@
         {
             "code": "magento192oro-default-u10-d5-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-default-u10-d5-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1572,7 +1571,7 @@
         {
             "code": "magento192oro-default-u20-d10-light-innodb1g-prewarm-images",
             "path": "magento192oro-default-u20-d10-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1591,7 +1590,7 @@
         {
             "code": "magento192oro-default-u20-d10-light-innodb256m-prewarm-images",
             "path": "magento192oro-default-u20-d10-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1610,7 +1609,7 @@
         {
             "code": "magento192oro-default-u20-d10-light-innodb512m-prewarm-images",
             "path": "magento192oro-default-u20-d10-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1629,7 +1628,7 @@
         {
             "code": "magento192oro-default-u20-d10-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-default-u20-d10-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1648,7 +1647,7 @@
         {
             "code": "magento192oro-default-u20-d10-pressure-innodb256m-prewarm-images",
             "path": "magento192oro-default-u20-d10-pressure-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1667,7 +1666,7 @@
         {
             "code": "magento192oro-default-u20-d10-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-default-u20-d10-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1686,7 +1685,7 @@
         {
             "code": "magento192oro-default-u20-d5-light-innodb1g-prewarm-images",
             "path": "magento192oro-default-u20-d5-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1705,7 +1704,7 @@
         {
             "code": "magento192oro-default-u20-d5-light-innodb256m-prewarm-images",
             "path": "magento192oro-default-u20-d5-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1724,7 +1723,7 @@
         {
             "code": "magento192oro-default-u20-d5-light-innodb512m-prewarm-images",
             "path": "magento192oro-default-u20-d5-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1743,7 +1742,7 @@
         {
             "code": "magento192oro-default-u20-d5-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-default-u20-d5-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1762,7 +1761,7 @@
         {
             "code": "magento192oro-default-u20-d5-pressure-innodb256m-prewarm-images",
             "path": "magento192oro-default-u20-d5-pressure-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1781,7 +1780,7 @@
         {
             "code": "magento192oro-default-u20-d5-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-default-u20-d5-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1800,7 +1799,7 @@
         {
             "code": "magento192oro-large-u10-d5-light-innodb1g-prewarm-images",
             "path": "magento192oro-large-u10-d5-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1819,7 +1818,7 @@
         {
             "code": "magento192oro-large-u10-d5-light-innodb256m-prewarm-images",
             "path": "magento192oro-large-u10-d5-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1838,7 +1837,7 @@
         {
             "code": "magento192oro-large-u10-d5-light-innodb512m-prewarm-images",
             "path": "magento192oro-large-u10-d5-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1857,7 +1856,7 @@
         {
             "code": "magento192oro-large-u10-d5-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-large-u10-d5-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1876,7 +1875,7 @@
         {
             "code": "magento192oro-large-u10-d5-pressure-innodb256m-prewarm-images",
             "path": "magento192oro-large-u10-d5-pressure-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1895,7 +1894,7 @@
         {
             "code": "magento192oro-large-u10-d5-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-large-u10-d5-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1914,7 +1913,7 @@
         {
             "code": "magento192oro-large-u20-d10-light-innodb1g-prewarm-images",
             "path": "magento192oro-large-u20-d10-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1933,7 +1932,7 @@
         {
             "code": "magento192oro-large-u20-d10-light-innodb256m-prewarm-images",
             "path": "magento192oro-large-u20-d10-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1952,7 +1951,7 @@
         {
             "code": "magento192oro-large-u20-d10-light-innodb512m-prewarm-images",
             "path": "magento192oro-large-u20-d10-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1971,7 +1970,7 @@
         {
             "code": "magento192oro-large-u20-d10-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-large-u20-d10-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -1990,7 +1989,7 @@
         {
             "code": "magento192oro-large-u20-d10-pressure-innodb256m-prewarm-images",
             "path": "magento192oro-large-u20-d10-pressure-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2009,7 +2008,7 @@
         {
             "code": "magento192oro-large-u20-d10-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-large-u20-d10-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2028,7 +2027,7 @@
         {
             "code": "magento192oro-large-u20-d5-light-innodb1g-prewarm-images",
             "path": "magento192oro-large-u20-d5-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2047,7 +2046,7 @@
         {
             "code": "magento192oro-large-u20-d5-light-innodb256m-prewarm-images",
             "path": "magento192oro-large-u20-d5-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2066,7 +2065,7 @@
         {
             "code": "magento192oro-large-u20-d5-light-innodb512m-prewarm-images",
             "path": "magento192oro-large-u20-d5-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2085,7 +2084,7 @@
         {
             "code": "magento192oro-large-u20-d5-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-large-u20-d5-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2104,7 +2103,7 @@
         {
             "code": "magento192oro-large-u20-d5-pressure-innodb256m-prewarm-images",
             "path": "magento192oro-large-u20-d5-pressure-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2123,7 +2122,7 @@
         {
             "code": "magento192oro-large-u20-d5-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-large-u20-d5-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2142,7 +2141,7 @@
         {
             "code": "magento192oro-original-u10-d5-light-innodb1g-prewarm-images",
             "path": "magento192oro-original-u10-d5-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2161,7 +2160,7 @@
         {
             "code": "magento192oro-original-u10-d5-light-innodb256m-prewarm-images",
             "path": "magento192oro-original-u10-d5-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2180,7 +2179,7 @@
         {
             "code": "magento192oro-original-u10-d5-light-innodb512m-prewarm-images",
             "path": "magento192oro-original-u10-d5-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2199,7 +2198,7 @@
         {
             "code": "magento192oro-original-u10-d5-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-original-u10-d5-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2218,7 +2217,7 @@
         {
             "code": "magento192oro-original-u10-d5-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-original-u10-d5-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2237,7 +2236,7 @@
         {
             "code": "magento192oro-original-u20-d10-light-innodb1g-prewarm-images",
             "path": "magento192oro-original-u20-d10-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2256,7 +2255,7 @@
         {
             "code": "magento192oro-original-u20-d10-light-innodb256m-prewarm-images",
             "path": "magento192oro-original-u20-d10-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2275,7 +2274,7 @@
         {
             "code": "magento192oro-original-u20-d10-light-innodb512m-prewarm-images",
             "path": "magento192oro-original-u20-d10-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2294,7 +2293,7 @@
         {
             "code": "magento192oro-original-u20-d10-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-original-u20-d10-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2313,7 +2312,7 @@
         {
             "code": "magento192oro-original-u20-d10-pressure-innodb256m-prewarm-images",
             "path": "magento192oro-original-u20-d10-pressure-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2332,7 +2331,7 @@
         {
             "code": "magento192oro-original-u20-d10-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-original-u20-d10-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2351,7 +2350,7 @@
         {
             "code": "magento192oro-original-u20-d5-light-innodb1g-prewarm-images",
             "path": "magento192oro-original-u20-d5-light-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2370,7 +2369,7 @@
         {
             "code": "magento192oro-original-u20-d5-light-innodb256m-prewarm-images",
             "path": "magento192oro-original-u20-d5-light-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2389,7 +2388,7 @@
         {
             "code": "magento192oro-original-u20-d5-light-innodb512m-prewarm-images",
             "path": "magento192oro-original-u20-d5-light-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2408,7 +2407,7 @@
         {
             "code": "magento192oro-original-u20-d5-pressure-innodb1g-prewarm-images",
             "path": "magento192oro-original-u20-d5-pressure-innodb1g-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2427,7 +2426,7 @@
         {
             "code": "magento192oro-original-u20-d5-pressure-innodb256m-prewarm-images",
             "path": "magento192oro-original-u20-d5-pressure-innodb256m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2446,7 +2445,7 @@
         {
             "code": "magento192oro-original-u20-d5-pressure-innodb512m-prewarm-images",
             "path": "magento192oro-original-u20-d5-pressure-innodb512m-prewarm-images/index.html",
-            "legend": "1.9.2.4 ORO",
+            "legend": "1.9.2.4 ORO_Ajax",
             "description": "Custom Behaviour CE  1.9.2.4 with Phoenix VarnishCache and Oro_Ajax module",
             "position": 2,
             "filter": {
@@ -2518,63 +2517,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento202-default-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento202-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento202-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento202-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento202-default-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -3432,63 +3374,6 @@
             "urlPath": "magento202-default-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento202-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento202-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento202-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento202-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento202-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento202-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.2 Fixed",
@@ -3886,63 +3771,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento202-large-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento202-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento202-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento202-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento202-large-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -4800,63 +4628,6 @@
             "urlPath": "magento202-large-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento202-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento202-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento202-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento202-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento202-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento202-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.2 Fixed",
@@ -5216,44 +4987,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento202-original-u10-d5-conf-opt--light-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento202-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento202-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento202-original-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -6054,63 +5787,6 @@
             "urlPath": "magento202-original-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento202-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento202-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento202-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento202-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento202-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.2 Disabled Modules",
-            "description": "Default CE 2.0.2 with disabled modules and no calls to ajax review block",
-            "position": 16,
-            "filter": {
-                "version": "2.0.2",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento202-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento202-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento202-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.2 Fixed",
@@ -6508,63 +6184,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento204-default-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento204-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento204-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento204-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento204-default-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -7422,63 +7041,6 @@
             "urlPath": "magento204-default-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento204-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento204-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento204-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento204-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento204-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento204-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.4 Fixed",
@@ -7876,63 +7438,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento204-large-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento204-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento204-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento204-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento204-large-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -8790,63 +8295,6 @@
             "urlPath": "magento204-large-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento204-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento204-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento204-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento204-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento204-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento204-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.4 Fixed",
@@ -9244,44 +8692,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento204-original-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento204-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento204-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento204-original-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -10082,63 +9492,6 @@
             "urlPath": "magento204-original-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento204-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento204-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento204-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento204-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento204-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.4 Disabled Modules",
-            "description": "Default CE 2.0.4 with disabled modules and no calls to ajax review block",
-            "position": 17,
-            "filter": {
-                "version": "2.0.4",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento204-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento204-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento204-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.4 Fixed",
@@ -10536,63 +9889,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento207-default-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento207-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento207-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento207-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento207-default-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -11450,63 +10746,6 @@
             "urlPath": "magento207-default-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento207-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento207-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento207-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento207-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento207-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento207-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.7 Fixed",
@@ -11904,63 +11143,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento207-large-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento207-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento207-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento207-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento207-large-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -12818,63 +12000,6 @@
             "urlPath": "magento207-large-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento207-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento207-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento207-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento207-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento207-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento207-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.7 Fixed",
@@ -13272,44 +12397,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento207-original-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento207-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento207-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento207-original-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -14110,63 +13197,6 @@
             "urlPath": "magento207-original-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento207-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento207-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento207-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento207-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento207-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.7 Disabled Modules",
-            "description": "Default CE 2.0.7 with disabled modules and no calls to ajax review block",
-            "position": 18,
-            "filter": {
-                "version": "2.0.7",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento207-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento207-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento207-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.7 Fixed",
@@ -14564,63 +13594,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento208-default-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento208-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento208-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento208-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento208-default-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -15478,63 +14451,6 @@
             "urlPath": "magento208-default-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento208-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento208-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento208-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento208-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento208-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento208-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.8 Fixed",
@@ -15932,63 +14848,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento208-large-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento208-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento208-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento208-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento208-large-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -16846,63 +15705,6 @@
             "urlPath": "magento208-large-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento208-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento208-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento208-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento208-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento208-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento208-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.8 Fixed",
@@ -17300,44 +16102,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento208-original-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento208-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento208-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento208-original-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -18138,63 +16902,6 @@
             "urlPath": "magento208-original-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento208-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento208-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento208-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento208-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento208-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.8 Disabled Modules",
-            "description": "Default CE 2.0.8 with disabled modules and no calls to ajax review block",
-            "position": 19,
-            "filter": {
-                "version": "2.0.8",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento208-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento208-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento208-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.8 Fixed",
@@ -18592,63 +17299,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento209-default-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento209-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento209-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento209-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento209-default-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -19506,63 +18156,6 @@
             "urlPath": "magento209-default-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento209-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento209-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento209-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento209-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento209-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento209-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.9 Fixed",
@@ -19960,63 +18553,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento209-large-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento209-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento209-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento209-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento209-large-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -20874,63 +19410,6 @@
             "urlPath": "magento209-large-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento209-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento209-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento209-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento209-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento209-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento209-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.9 Fixed",
@@ -21328,44 +19807,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento209-original-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento209-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento209-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento209-original-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -22166,63 +20607,6 @@
             "urlPath": "magento209-original-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento209-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento209-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento209-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento209-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento209-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.0.9 Disabled Modules",
-            "description": "Default CE 2.0.9 with disabled modules and no calls to ajax review block",
-            "position": 20,
-            "filter": {
-                "version": "2.0.9",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento209-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento209-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento209-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.0.9 Fixed",
@@ -22620,63 +21004,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento210-default-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento210-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-default-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento210-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-default-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento210-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-default-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento210-default-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -23534,63 +21861,6 @@
             "urlPath": "magento210-default-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento210-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento210-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-default-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento210-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-default-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento210-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Default",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-default-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento210-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento210-default-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.1.0 Fixed",
@@ -23988,63 +22258,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento210-large-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento210-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-large-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento210-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-large-u10-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento210-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-large-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento210-large-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -24902,63 +23115,6 @@
             "urlPath": "magento210-large-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
         },
         {
-            "code": "magento210-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento210-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-large-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento210-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-large-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento210-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Large",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-large-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
-        },
-        {
             "code": "magento210-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
             "path": "magento210-large-u20-d5-fixed-opt--light-innodb1g-prewarm-images/index.html",
             "legend": "2.1.0 Fixed",
@@ -25356,44 +23512,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento210-original-u10-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento210-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-original-u10-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento210-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 10,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-original-u10-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento210-original-u10-d5-fixed-opt--light-innodb1g-prewarm-images",
@@ -26192,63 +24310,6 @@
                 "pressure": "No"
             },
             "urlPath": "magento210-original-u20-d5-conf-opt--light-innodb512m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images",
-            "path": "magento210-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "1G",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-original-u20-d5-conf-opt--pressure-innodb1g-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images",
-            "path": "magento210-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "256M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-original-u20-d5-conf-opt--pressure-innodb256m-prewarm-images/info.json"
-        },
-        {
-            "code": "magento210-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images",
-            "path": "magento210-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/index.html",
-            "legend": "2.1.0 Disabled Modules",
-            "description": "Default CE 2.1.0 with disabled modules and no calls to ajax review block",
-            "position": 21,
-            "filter": {
-                "version": "2.1.0",
-                "configuration": "2.x Disabled Modules",
-                "data_set": "Original",
-                "users": 20,
-                "duration": 5,
-                "image_cache": "Warm",
-                "php": "7.0",
-                "innodb": "512M",
-                "pressure": "Yes"
-            },
-            "urlPath": "magento210-original-u20-d5-conf-opt--pressure-innodb512m-prewarm-images/info.json"
         },
         {
             "code": "magento210-original-u20-d5-fixed-opt--light-innodb1g-prewarm-images",
