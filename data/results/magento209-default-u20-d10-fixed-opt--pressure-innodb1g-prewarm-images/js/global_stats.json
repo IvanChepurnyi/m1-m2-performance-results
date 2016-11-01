@@ -1,73 +1,73 @@
 {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 13289,
-        "ok": 13287,
-        "ko": 2
+        "total": 18314,
+        "ok": 18314,
+        "ko": 0
     },
     "minResponseTime": {
         "total": 1,
         "ok": 1,
-        "ko": 1208
+        "ko": 0
     },
     "maxResponseTime": {
-        "total": 57600,
-        "ok": 57600,
-        "ko": 1373
+        "total": 48740,
+        "ok": 48740,
+        "ko": 0
     },
     "meanResponseTime": {
-        "total": 689,
-        "ok": 688,
-        "ko": 1290
+        "total": 441,
+        "ok": 441,
+        "ko": 0
     },
     "standardDeviation": {
-        "total": 3030,
-        "ok": 3030,
-        "ko": 82
+        "total": 2087,
+        "ok": 2087,
+        "ko": 0
     },
     "percentiles1": {
-        "total": 8,
-        "ok": 8,
-        "ko": 1290
+        "total": 6,
+        "ok": 6,
+        "ko": 0
     },
     "percentiles2": {
-        "total": 428,
-        "ok": 428,
-        "ko": 1331
+        "total": 337,
+        "ok": 337,
+        "ko": 0
     },
     "percentiles3": {
-        "total": 3131,
-        "ok": 3131,
-        "ko": 1364
+        "total": 1001,
+        "ok": 1001,
+        "ko": 0
     },
     "percentiles4": {
-        "total": 10306,
-        "ok": 10317,
-        "ko": 1371
+        "total": 4937,
+        "ok": 4937,
+        "ko": 0
     },
     "group1": {
         "name": "t < 800 ms",
-        "count": 11943,
-        "percentage": 90
+        "count": 17131,
+        "percentage": 94
     },
     "group2": {
         "name": "800 ms < t < 1200 ms",
-        "count": 513,
-        "percentage": 4
+        "count": 354,
+        "percentage": 2
     },
     "group3": {
         "name": "t > 1200 ms",
-        "count": 831,
-        "percentage": 6
+        "count": 829,
+        "percentage": 5
     },
     "group4": {
         "name": "failed",
-        "count": 2,
+        "count": 0,
         "percentage": 0
     },
     "meanNumberOfRequestsPerSecond": {
-        "total": 21.12718600953895,
-        "ok": 21.124006359300477,
-        "ko": 0.003179650238473768
+        "total": 29.116057233704293,
+        "ok": 29.116057233704293,
+        "ko": 0
     }
 }

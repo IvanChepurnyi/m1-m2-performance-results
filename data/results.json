@@ -53,6 +53,7 @@
             "selection": [
                 "1.9.x Oro Ajax",
                 "2.x Default",
+                "2.x Disabled Modules",
                 "2.x Fixed"
             ],
             "options": [
@@ -100,8 +101,7 @@
             "label": "Image Cache",
             "multiple": true,
             "selection": [
-                "Warm",
-                "Cold"
+                "Warm"
             ],
             "options": [
                 "Warm",
@@ -121,8 +121,7 @@
             "label": "InnoDB",
             "multiple": true,
             "selection": [
-                "512M",
-                "N/A"
+                "256M"
             ],
             "options": [
                 "256M",

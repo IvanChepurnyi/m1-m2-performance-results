@@ -22584,3 +22584,2046 @@ Product Price index has been rebuilt successfully in 00:00:44
 Product EAV index has been rebuilt successfully in 00:00:42
 END:1477420572:load-test-magento2-bootstrap:1477420682
 Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228
+BEGIN:1477816281:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:03:11
+Product Flat Data index has been rebuilt successfully in 00:00:26
+END:1477816281:load-test-magento2-bootstrap:1477816583
+BEGIN:1477816643:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:52
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477816643:load-test-magento2-bootstrap:1477816915
+BEGIN:1477817308:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:03:33
+Product Flat Data index has been rebuilt successfully in 00:00:23
+END:1477817308:load-test-magento2-bootstrap:1477817642
+BEGIN:1477817702:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:06
+END:1477817702:load-test-magento2-bootstrap:1477817947
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477818377:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:14
+Product EAV index has been rebuilt successfully in 00:04:01
+Product Flat Data index has been rebuilt successfully in 00:00:24
+END:1477818377:load-test-magento2-bootstrap:1477818740
+BEGIN:1477818800:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:05
+END:1477818800:load-test-magento2-bootstrap:1477819015
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477819545:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:03:16
+Product Flat Data index has been rebuilt successfully in 00:00:21
+END:1477819545:load-test-magento2-bootstrap:1477819851
+BEGIN:1477819911:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:02
+Product EAV index has been rebuilt successfully in 00:02:41
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477819911:load-test-magento2-bootstrap:1477820172
+BEGIN:1477820688:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:03:43
+Product Flat Data index has been rebuilt successfully in 00:00:22
+END:1477820688:load-test-magento2-bootstrap:1477821035
+BEGIN:1477821095:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:04
+END:1477821095:load-test-magento2-bootstrap:1477821323
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477821863:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:03
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:03:45
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477821863:load-test-magento2-bootstrap:1477822194
+BEGIN:1477822254:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:06
+END:1477822254:load-test-magento2-bootstrap:1477822506
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477822926:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:02:26
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477822926:load-test-magento2-bootstrap:1477823173
+BEGIN:1477823233:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:23
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477823233:load-test-magento2-bootstrap:1477823482
+BEGIN:1477823542:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:06
+END:1477823542:load-test-magento2-bootstrap:1477823562
+Product Price indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477823962:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:02:58
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477823962:load-test-magento2-bootstrap:1477824257
+BEGIN:1477824317:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:05
+Product EAV index has been rebuilt successfully in 00:02:44
+Product Flat Data index has been rebuilt successfully in 00:00:10
+END:1477824317:load-test-magento2-bootstrap:1477824590
+BEGIN:1477824996:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:16
+Product EAV index has been rebuilt successfully in 00:03:17
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477824996:load-test-magento2-bootstrap:1477825306
+BEGIN:1477825366:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:07
+END:1477825366:load-test-magento2-bootstrap:1477825636
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477826166:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:31
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477826166:load-test-magento2-bootstrap:1477826420
+BEGIN:1477826480:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:20
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477826480:load-test-magento2-bootstrap:1477826724
+BEGIN:1477826784:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:06
+END:1477826784:load-test-magento2-bootstrap:1477826805
+Product Price indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477827315:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:02:52
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477827315:load-test-magento2-bootstrap:1477827596
+BEGIN:1477827656:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:11
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:34
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477827656:load-test-magento2-bootstrap:1477827927
+BEGIN:1477828461:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:03:01
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477828461:load-test-magento2-bootstrap:1477828744
+BEGIN:1477828804:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:03:06
+Product Flat Data index has been rebuilt successfully in 00:00:10
+END:1477828804:load-test-magento2-bootstrap:1477829102
+BEGIN:1477829493:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:05
+Product EAV index has been rebuilt successfully in 00:02:19
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477829493:load-test-magento2-bootstrap:1477829728
+BEGIN:1477829788:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+Product EAV index has been rebuilt successfully in 00:00:53
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477829788:load-test-magento2-bootstrap:1477829913
+BEGIN:1477829973:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+Product EAV index has been rebuilt successfully in 00:00:49
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477829973:load-test-magento2-bootstrap:1477830093
+BEGIN:1477830527:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:02:41
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477830527:load-test-magento2-bootstrap:1477830801
+BEGIN:1477830861:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:44
+Product EAV index has been rebuilt successfully in 00:00:58
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477830861:load-test-magento2-bootstrap:1477831007
+BEGIN:1477831067:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:41
+END:1477831067:load-test-magento2-bootstrap:1477831162
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477831572:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:56
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477831572:load-test-magento2-bootstrap:1477831856
+BEGIN:1477831916:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:44
+Product EAV index has been rebuilt successfully in 00:00:59
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477831916:load-test-magento2-bootstrap:1477832064
+BEGIN:1477832124:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:44
+END:1477832124:load-test-magento2-bootstrap:1477832211
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477832721:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:16
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477832721:load-test-magento2-bootstrap:1477832953
+BEGIN:1477833013:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:39
+Product EAV index has been rebuilt successfully in 00:00:48
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477833013:load-test-magento2-bootstrap:1477833134
+BEGIN:1477833194:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:39
+Product EAV index has been rebuilt successfully in 00:00:47
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477833194:load-test-magento2-bootstrap:1477833313
+BEGIN:1477833872:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:02:34
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477833872:load-test-magento2-bootstrap:1477834134
+BEGIN:1477834194:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:39
+Product EAV index has been rebuilt successfully in 00:00:52
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477834194:load-test-magento2-bootstrap:1477834331
+BEGIN:1477834391:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+Product EAV index has been rebuilt successfully in 00:00:48
+END:1477834391:load-test-magento2-bootstrap:1477834508
+PDOStatement::execute(): MySQL server has gone away
+BEGIN:1477835018:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:02:54
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477835018:load-test-magento2-bootstrap:1477835300
+BEGIN:1477835360:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:44
+Product EAV index has been rebuilt successfully in 00:00:58
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477835360:load-test-magento2-bootstrap:1477835505
+BEGIN:1477835565:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:41
+END:1477835565:load-test-magento2-bootstrap:1477835657
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477836067:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:03:08
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477836067:load-test-magento2-bootstrap:1477836360
+BEGIN:1477836420:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:03
+Product EAV index has been rebuilt successfully in 00:02:56
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477836420:load-test-magento2-bootstrap:1477836698
+BEGIN:1477837104:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:03:35
+Product Flat Data index has been rebuilt successfully in 00:00:21
+END:1477837104:load-test-magento2-bootstrap:1477837439
+BEGIN:1477837499:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:11
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:04
+END:1477837499:load-test-magento2-bootstrap:1477837738
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477838168:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:03
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:03:52
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477838168:load-test-magento2-bootstrap:1477838509
+BEGIN:1477838569:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:05
+END:1477838569:load-test-magento2-bootstrap:1477838811
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477839341:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:03:08
+Product Flat Data index has been rebuilt successfully in 00:00:24
+END:1477839341:load-test-magento2-bootstrap:1477839634
+BEGIN:1477839694:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:01
+Product EAV index has been rebuilt successfully in 00:02:47
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477839694:load-test-magento2-bootstrap:1477839962
+BEGIN:1477840491:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:03:39
+Product Flat Data index has been rebuilt successfully in 00:00:24
+END:1477840491:load-test-magento2-bootstrap:1477840832
+BEGIN:1477840892:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:11
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:05
+END:1477840892:load-test-magento2-bootstrap:1477841130
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477841680:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:03:48
+Product Flat Data index has been rebuilt successfully in 00:00:21
+END:1477841680:load-test-magento2-bootstrap:1477842022
+BEGIN:1477842082:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:08
+END:1477842082:load-test-magento2-bootstrap:1477842318
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477842738:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:02:29
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477842738:load-test-magento2-bootstrap:1477842988
+BEGIN:1477843048:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:02:20
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477843048:load-test-magento2-bootstrap:1477843297
+BEGIN:1477843357:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:06
+END:1477843357:load-test-magento2-bootstrap:1477843376
+Product Price indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477843776:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:58
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477843776:load-test-magento2-bootstrap:1477844065
+BEGIN:1477844125:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:02:39
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477844125:load-test-magento2-bootstrap:1477844404
+BEGIN:1477844818:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:03:09
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477844818:load-test-magento2-bootstrap:1477845115
+BEGIN:1477845175:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:53
+END:1477845175:load-test-magento2-bootstrap:1477845455
+PDOStatement::execute(): MySQL server has gone away
+BEGIN:1477845955:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:26
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477845955:load-test-magento2-bootstrap:1477846198
+BEGIN:1477846258:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:22
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477846258:load-test-magento2-bootstrap:1477846506
+BEGIN:1477846566:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:06
+END:1477846566:load-test-magento2-bootstrap:1477846594
+Product Price indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477847114:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:15
+Product EAV index has been rebuilt successfully in 00:03:09
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477847114:load-test-magento2-bootstrap:1477847421
+BEGIN:1477847481:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:02:35
+Product Flat Data index has been rebuilt successfully in 00:00:11
+END:1477847481:load-test-magento2-bootstrap:1477847749
+BEGIN:1477848273:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:03:04
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477848273:load-test-magento2-bootstrap:1477848565
+BEGIN:1477848625:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:05
+Product EAV index has been rebuilt successfully in 00:03:03
+END:1477848625:load-test-magento2-bootstrap:1477848908
+PDOStatement::execute(): MySQL server has gone away
+BEGIN:1477849298:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:02:20
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477849298:load-test-magento2-bootstrap:1477849534
+BEGIN:1477849594:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+Product EAV index has been rebuilt successfully in 00:00:51
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477849594:load-test-magento2-bootstrap:1477849717
+BEGIN:1477849777:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:39
+Product EAV index has been rebuilt successfully in 00:00:50
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477849777:load-test-magento2-bootstrap:1477849898
+BEGIN:1477850340:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:02:49
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477850340:load-test-magento2-bootstrap:1477850622
+BEGIN:1477850682:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:39
+Product EAV index has been rebuilt successfully in 00:00:53
+Product Flat Data index has been rebuilt successfully in 00:00:12
+END:1477850682:load-test-magento2-bootstrap:1477850817
+BEGIN:1477850877:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+END:1477850877:load-test-magento2-bootstrap:1477850976
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477851396:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:14
+Product EAV index has been rebuilt successfully in 00:03:04
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477851396:load-test-magento2-bootstrap:1477851692
+BEGIN:1477851752:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:43
+Product EAV index has been rebuilt successfully in 00:00:57
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477851752:load-test-magento2-bootstrap:1477851890
+BEGIN:1477851950:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+END:1477851950:load-test-magento2-bootstrap:1477852032
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477852542:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:02:26
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477852542:load-test-magento2-bootstrap:1477852790
+BEGIN:1477852850:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:38
+Product EAV index has been rebuilt successfully in 00:00:50
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477852850:load-test-magento2-bootstrap:1477852969
+BEGIN:1477853029:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:36
+Product EAV index has been rebuilt successfully in 00:00:49
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477853029:load-test-magento2-bootstrap:1477853145
+BEGIN:1477853692:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:02:37
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477853692:load-test-magento2-bootstrap:1477853955
+BEGIN:1477854015:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:47
+Product EAV index has been rebuilt successfully in 00:00:57
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477854015:load-test-magento2-bootstrap:1477854165
+BEGIN:1477854225:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+END:1477854225:load-test-magento2-bootstrap:1477854336
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477854876:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:02:51
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477854876:load-test-magento2-bootstrap:1477855152
+BEGIN:1477855212:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:41
+Product EAV index has been rebuilt successfully in 00:00:59
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477855212:load-test-magento2-bootstrap:1477855351
+BEGIN:1477855411:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:44
+END:1477855411:load-test-magento2-bootstrap:1477855518
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477855928:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:03:04
+Product Flat Data index has been rebuilt successfully in 00:00:24
+END:1477855928:load-test-magento2-bootstrap:1477856220
+BEGIN:1477856280:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:02
+Product EAV index has been rebuilt successfully in 00:02:55
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477856280:load-test-magento2-bootstrap:1477856556
+BEGIN:1477856969:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:03:42
+Product Flat Data index has been rebuilt successfully in 00:00:24
+END:1477856969:load-test-magento2-bootstrap:1477857315
+BEGIN:1477857375:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:05
+END:1477857375:load-test-magento2-bootstrap:1477857614
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477858044:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:04:07
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477858044:load-test-magento2-bootstrap:1477858408
+BEGIN:1477858468:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:11
+END:1477858468:load-test-magento2-bootstrap:1477858681
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477859211:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:03:17
+Product Flat Data index has been rebuilt successfully in 00:00:22
+END:1477859211:load-test-magento2-bootstrap:1477859520
+BEGIN:1477859580:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:48
+END:1477859580:load-test-magento2-bootstrap:1477859848
+PDOStatement::execute(): MySQL server has gone away
+BEGIN:1477860358:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:03:47
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477860358:load-test-magento2-bootstrap:1477860704
+BEGIN:1477860764:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:06
+END:1477860764:load-test-magento2-bootstrap:1477860996
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477861546:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:14
+Product EAV index has been rebuilt successfully in 00:03:50
+Product Flat Data index has been rebuilt successfully in 00:00:21
+END:1477861546:load-test-magento2-bootstrap:1477861896
+BEGIN:1477861956:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:09
+END:1477861956:load-test-magento2-bootstrap:1477862185
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477862595:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:02:36
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477862595:load-test-magento2-bootstrap:1477862852
+BEGIN:1477862912:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:02:31
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477862912:load-test-magento2-bootstrap:1477863170
+BEGIN:1477863230:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+END:1477863230:load-test-magento2-bootstrap:1477863238
+BEGIN:1477863638:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:13
+Product EAV index has been rebuilt successfully in 00:03:05
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477863638:load-test-magento2-bootstrap:1477863944
+BEGIN:1477864004:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:11
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:44
+END:1477864004:load-test-magento2-bootstrap:1477864274
+PDOStatement::execute(): MySQL server has gone away
+BEGIN:1477864674:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:03:08
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477864674:load-test-magento2-bootstrap:1477864971
+BEGIN:1477865031:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:11
+END:1477865031:load-test-magento2-bootstrap:1477865313
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477865853:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:02:29
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477865853:load-test-magento2-bootstrap:1477866102
+BEGIN:1477866162:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:13
+Product EAV index has been rebuilt successfully in 00:02:35
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477866162:load-test-magento2-bootstrap:1477866431
+BEGIN:1477866491:load-test-magento2-bootstrap
+END:1477866491:load-test-magento2-bootstrap:1477866492
+Category Products indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477867012:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:02:48
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477867012:load-test-magento2-bootstrap:1477867289
+BEGIN:1477867349:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:02:37
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477867349:load-test-magento2-bootstrap:1477867624
+BEGIN:1477868178:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:03:02
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477868178:load-test-magento2-bootstrap:1477868467
+BEGIN:1477868527:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:57
+END:1477868527:load-test-magento2-bootstrap:1477868813
+PDOStatement::execute(): MySQL server has gone away
+BEGIN:1477869203:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:12
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477869203:load-test-magento2-bootstrap:1477869429
+BEGIN:1477869489:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:38
+Product EAV index has been rebuilt successfully in 00:00:51
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477869489:load-test-magento2-bootstrap:1477869613
+BEGIN:1477869673:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:38
+Product EAV index has been rebuilt successfully in 00:00:51
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477869673:load-test-magento2-bootstrap:1477869792
+BEGIN:1477870242:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:02:50
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477870242:load-test-magento2-bootstrap:1477870526
+BEGIN:1477870586:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:43
+Product EAV index has been rebuilt successfully in 00:00:54
+Product Flat Data index has been rebuilt successfully in 00:00:12
+END:1477870586:load-test-magento2-bootstrap:1477870723
+BEGIN:1477870783:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:39
+END:1477870783:load-test-magento2-bootstrap:1477870875
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477871295:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:03:03
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477871295:load-test-magento2-bootstrap:1477871591
+BEGIN:1477871651:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:44
+Product EAV index has been rebuilt successfully in 00:01:01
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477871651:load-test-magento2-bootstrap:1477871800
+BEGIN:1477871860:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:39
+END:1477871860:load-test-magento2-bootstrap:1477871932
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477872442:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:05
+Product EAV index has been rebuilt successfully in 00:02:13
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477872442:load-test-magento2-bootstrap:1477872672
+BEGIN:1477872732:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:41
+Product EAV index has been rebuilt successfully in 00:00:48
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477872732:load-test-magento2-bootstrap:1477872852
+BEGIN:1477872912:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:38
+Product EAV index has been rebuilt successfully in 00:00:45
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477872912:load-test-magento2-bootstrap:1477873027
+BEGIN:1477873590:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:03
+Product EAV index has been rebuilt successfully in 00:02:40
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477873590:load-test-magento2-bootstrap:1477873852
+BEGIN:1477873912:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+Product EAV index has been rebuilt successfully in 00:00:52
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477873912:load-test-magento2-bootstrap:1477874051
+BEGIN:1477874111:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+Product EAV index has been rebuilt successfully in 00:00:48
+END:1477874111:load-test-magento2-bootstrap:1477874231
+PDOStatement::execute(): MySQL server has gone away
+BEGIN:1477874751:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:14
+Product EAV index has been rebuilt successfully in 00:02:53
+Product Flat Data index has been rebuilt successfully in 00:00:12
+END:1477874751:load-test-magento2-bootstrap:1477875036
+BEGIN:1477875096:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:41
+Product EAV index has been rebuilt successfully in 00:00:49
+Product Flat Data index has been rebuilt successfully in 00:00:11
+END:1477875096:load-test-magento2-bootstrap:1477875222
+BEGIN:1477875282:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:39
+END:1477875282:load-test-magento2-bootstrap:1477875388
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477875818:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:55
+Product Flat Data index has been rebuilt successfully in 00:00:22
+END:1477875818:load-test-magento2-bootstrap:1477876100
+BEGIN:1477876160:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:46
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477876160:load-test-magento2-bootstrap:1477876434
+BEGIN:1477876853:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:15
+Product EAV index has been rebuilt successfully in 00:03:37
+Product Flat Data index has been rebuilt successfully in 00:00:21
+END:1477876853:load-test-magento2-bootstrap:1477877194
+BEGIN:1477877254:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:08
+END:1477877254:load-test-magento2-bootstrap:1477877488
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477877918:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:03:40
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477877918:load-test-magento2-bootstrap:1477878254
+BEGIN:1477878314:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:06
+END:1477878314:load-test-magento2-bootstrap:1477878556
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477879097:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:51
+Product Flat Data index has been rebuilt successfully in 00:00:21
+END:1477879097:load-test-magento2-bootstrap:1477879371
+BEGIN:1477879431:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:01
+Product EAV index has been rebuilt successfully in 00:02:42
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477879431:load-test-magento2-bootstrap:1477879694
+BEGIN:1477880241:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:03:42
+Product Flat Data index has been rebuilt successfully in 00:00:22
+END:1477880241:load-test-magento2-bootstrap:1477880582
+BEGIN:1477880642:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:04
+END:1477880642:load-test-magento2-bootstrap:1477880876
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477881426:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:03:47
+Product Flat Data index has been rebuilt successfully in 00:00:19
+END:1477881426:load-test-magento2-bootstrap:1477881769
+BEGIN:1477881829:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:07
+END:1477881829:load-test-magento2-bootstrap:1477882062
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477882482:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:02:23
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477882482:load-test-magento2-bootstrap:1477882724
+BEGIN:1477882784:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:15
+Product EAV index has been rebuilt successfully in 00:02:21
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477882784:load-test-magento2-bootstrap:1477883040
+BEGIN:1477883100:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:06
+END:1477883100:load-test-magento2-bootstrap:1477883117
+Product Price indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477883517:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:02:50
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477883517:load-test-magento2-bootstrap:1477883796
+BEGIN:1477883856:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:11
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:48
+Product Flat Data index has been rebuilt successfully in 00:00:12
+END:1477883856:load-test-magento2-bootstrap:1477884143
+BEGIN:1477884553:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:03:01
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477884553:load-test-magento2-bootstrap:1477884840
+BEGIN:1477884900:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:03:02
+Product Flat Data index has been rebuilt successfully in 00:00:10
+END:1477884900:load-test-magento2-bootstrap:1477885191
+BEGIN:1477885692:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:02
+Product EAV index has been rebuilt successfully in 00:02:20
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477885692:load-test-magento2-bootstrap:1477885926
+BEGIN:1477885986:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:18
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477885986:load-test-magento2-bootstrap:1477886225
+BEGIN:1477886285:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:07
+END:1477886285:load-test-magento2-bootstrap:1477886334
+Product Price indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477886844:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:03
+Product EAV index has been rebuilt successfully in 00:02:47
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477886844:load-test-magento2-bootstrap:1477887114
+BEGIN:1477887175:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:11
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:02:33
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477887175:load-test-magento2-bootstrap:1477887444
+BEGIN:1477887996:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:58
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477887996:load-test-magento2-bootstrap:1477888273
+BEGIN:1477888333:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:58
+Product Flat Data index has been rebuilt successfully in 00:00:12
+END:1477888333:load-test-magento2-bootstrap:1477888624
+BEGIN:1477889029:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:01
+Product EAV index has been rebuilt successfully in 00:02:15
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477889029:load-test-magento2-bootstrap:1477889254
+BEGIN:1477889314:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:41
+Product EAV index has been rebuilt successfully in 00:00:49
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477889314:load-test-magento2-bootstrap:1477889436
+BEGIN:1477889496:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+Product EAV index has been rebuilt successfully in 00:00:47
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477889496:load-test-magento2-bootstrap:1477889614
+BEGIN:1477890070:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:41
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477890070:load-test-magento2-bootstrap:1477890340
+BEGIN:1477890400:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:42
+Product EAV index has been rebuilt successfully in 00:00:57
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477890400:load-test-magento2-bootstrap:1477890543
+BEGIN:1477890603:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+END:1477890603:load-test-magento2-bootstrap:1477890711
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477891131:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:51
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477891131:load-test-magento2-bootstrap:1477891405
+BEGIN:1477891465:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:42
+Product EAV index has been rebuilt successfully in 00:00:58
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477891465:load-test-magento2-bootstrap:1477891606
+BEGIN:1477891666:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:41
+END:1477891666:load-test-magento2-bootstrap:1477891775
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477892305:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:14
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477892305:load-test-magento2-bootstrap:1477892535
+BEGIN:1477892595:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:38
+Product EAV index has been rebuilt successfully in 00:00:51
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477892595:load-test-magento2-bootstrap:1477892717
+BEGIN:1477892777:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:39
+Product EAV index has been rebuilt successfully in 00:00:47
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477892777:load-test-magento2-bootstrap:1477892896
+BEGIN:1477893451:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:53
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477893451:load-test-magento2-bootstrap:1477893731
+BEGIN:1477893791:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:41
+Product EAV index has been rebuilt successfully in 00:00:56
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477893791:load-test-magento2-bootstrap:1477893928
+BEGIN:1477893988:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+END:1477893988:load-test-magento2-bootstrap:1477894094
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477894624:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:03:02
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477894624:load-test-magento2-bootstrap:1477894911
+BEGIN:1477894971:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:09
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:41
+Product EAV index has been rebuilt successfully in 00:00:54
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477894971:load-test-magento2-bootstrap:1477895114
+BEGIN:1477895174:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+END:1477895174:load-test-magento2-bootstrap:1477895263
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477895674:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:02:40
+Product EAV index has been rebuilt successfully in 00:04:24
+Product Flat Data index has been rebuilt successfully in 00:00:34
+END:1477895674:load-test-magento2-bootstrap:1477896151
+BEGIN:1477896211:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:08
+END:1477896211:load-test-magento2-bootstrap:1477896309
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477896689:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:57
+Product EAV index has been rebuilt successfully in 00:04:37
+Product Flat Data index has been rebuilt successfully in 00:00:22
+END:1477896689:load-test-magento2-bootstrap:1477897133
+BEGIN:1477897193:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:12
+Product Categories index has been rebuilt successfully in 00:00:12
+Stock index has been rebuilt successfully in 00:00:10
+Product Price index has been rebuilt successfully in 00:01:14
+END:1477897193:load-test-magento2-bootstrap:1477897331
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477897721:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:30
+Product EAV index has been rebuilt successfully in 00:04:55
+Product Flat Data index has been rebuilt successfully in 00:00:28
+END:1477897721:load-test-magento2-bootstrap:1477898157
+BEGIN:1477898217:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:08
+END:1477898217:load-test-magento2-bootstrap:1477898364
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477898864:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:02:47
+Product EAV index has been rebuilt successfully in 00:04:07
+Product Flat Data index has been rebuilt successfully in 00:00:29
+END:1477898864:load-test-magento2-bootstrap:1477899324
+BEGIN:1477899384:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:05
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:09
+END:1477899384:load-test-magento2-bootstrap:1477899503
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477900003:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:02:00
+Product EAV index has been rebuilt successfully in 00:04:44
+Product Flat Data index has been rebuilt successfully in 00:00:27
+END:1477900003:load-test-magento2-bootstrap:1477900459
+BEGIN:1477900519:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:11
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:09
+END:1477900519:load-test-magento2-bootstrap:1477900646
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477901166:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:53
+Product EAV index has been rebuilt successfully in 00:04:57
+Product Flat Data index has been rebuilt successfully in 00:00:25
+END:1477901166:load-test-magento2-bootstrap:1477901626
+BEGIN:1477901686:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:07
+END:1477901686:load-test-magento2-bootstrap:1477901804
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477902194:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:02:28
+Product EAV index has been rebuilt successfully in 00:03:30
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477902194:load-test-magento2-bootstrap:1477902591
+BEGIN:1477902651:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:05
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:18
+END:1477902651:load-test-magento2-bootstrap:1477902829
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477903239:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:10
+Product Price index has been rebuilt successfully in 00:02:01
+Product EAV index has been rebuilt successfully in 00:03:59
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477903239:load-test-magento2-bootstrap:1477903651
+BEGIN:1477903711:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:11
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:10
+Product Price index has been rebuilt successfully in 00:01:13
+END:1477903711:load-test-magento2-bootstrap:1477903877
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477904277:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:30
+Product EAV index has been rebuilt successfully in 00:04:14
+Product Flat Data index has been rebuilt successfully in 00:00:19
+END:1477904277:load-test-magento2-bootstrap:1477904669
+BEGIN:1477904729:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:15
+END:1477904729:load-test-magento2-bootstrap:1477904911
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477905432:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:02:45
+Product EAV index has been rebuilt successfully in 00:03:47
+Product Flat Data index has been rebuilt successfully in 00:00:22
+END:1477905432:load-test-magento2-bootstrap:1477905862
+BEGIN:1477905922:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:12
+END:1477905922:load-test-magento2-bootstrap:1477906072
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477906582:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:12
+Stock index has been rebuilt successfully in 00:00:21
+Product Price index has been rebuilt successfully in 00:01:57
+Product EAV index has been rebuilt successfully in 00:03:45
+Product Flat Data index has been rebuilt successfully in 00:00:19
+END:1477906582:load-test-magento2-bootstrap:1477906991
+BEGIN:1477907051:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:11
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:12
+END:1477907051:load-test-magento2-bootstrap:1477907215
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477907736:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:03
+Product Price index has been rebuilt successfully in 00:01:42
+Product EAV index has been rebuilt successfully in 00:04:12
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477907736:load-test-magento2-bootstrap:1477908128
+BEGIN:1477908188:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:12
+END:1477908188:load-test-magento2-bootstrap:1477908379
+Product EAV indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477908779:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:02:36
+Product EAV index has been rebuilt successfully in 00:03:19
+Product Flat Data index has been rebuilt successfully in 00:00:19
+END:1477908779:load-test-magento2-bootstrap:1477909170
+BEGIN:1477909230:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:43
+Product EAV index has been rebuilt successfully in 00:01:05
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477909230:load-test-magento2-bootstrap:1477909378
+BEGIN:1477909809:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:02:02
+Product EAV index has been rebuilt successfully in 00:03:56
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477909809:load-test-magento2-bootstrap:1477910208
+BEGIN:1477910268:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:44
+Product EAV index has been rebuilt successfully in 00:00:57
+Product Flat Data index has been rebuilt successfully in 00:00:19
+END:1477910268:load-test-magento2-bootstrap:1477910420
+BEGIN:1477910850:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:36
+Product EAV index has been rebuilt successfully in 00:03:36
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477910850:load-test-magento2-bootstrap:1477911201
+BEGIN:1477911261:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:49
+Product EAV index has been rebuilt successfully in 00:01:05
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477911261:load-test-magento2-bootstrap:1477911422
+BEGIN:1477911482:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+END:1477911482:load-test-magento2-bootstrap:1477911491
+Product Categories indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477911991:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:02:32
+Product EAV index has been rebuilt successfully in 00:03:30
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477911991:load-test-magento2-bootstrap:1477912390
+BEGIN:1477912450:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:43
+Product EAV index has been rebuilt successfully in 00:00:56
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477912450:load-test-magento2-bootstrap:1477912585
+BEGIN:1477913131:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:02:09
+Product EAV index has been rebuilt successfully in 00:03:52
+Product Flat Data index has been rebuilt successfully in 00:00:19
+END:1477913131:load-test-magento2-bootstrap:1477913539
+BEGIN:1477913599:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:10
+Product Categories index has been rebuilt successfully in 00:00:10
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:00:44
+Product EAV index has been rebuilt successfully in 00:01:03
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477913599:load-test-magento2-bootstrap:1477913752
+BEGIN:1477914283:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:45
+Product EAV index has been rebuilt successfully in 00:04:09
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477914283:load-test-magento2-bootstrap:1477914682
+BEGIN:1477914742:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:08
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:46
+Product EAV index has been rebuilt successfully in 00:01:08
+Product Flat Data index has been rebuilt successfully in 00:00:14
+END:1477914742:load-test-magento2-bootstrap:1477914900
+BEGIN:1477915541:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:02:34
+Product Flat Data index has been rebuilt successfully in 00:00:25
+END:1477915541:load-test-magento2-bootstrap:1477915807
+BEGIN:1477915867:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:28
+Product Flat Data index has been rebuilt successfully in 00:00:25
+END:1477915867:load-test-magento2-bootstrap:1477916126
+BEGIN:1477916798:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:05
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:03:01
+Product Flat Data index has been rebuilt successfully in 00:00:24
+END:1477916798:load-test-magento2-bootstrap:1477917096
+BEGIN:1477917156:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:02:56
+END:1477917156:load-test-magento2-bootstrap:1477917442
+Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228
+BEGIN:1477918072:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:03:34
+Product Flat Data index has been rebuilt successfully in 00:00:23
+END:1477918072:load-test-magento2-bootstrap:1477918396
+BEGIN:1477918456:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:03:03
+END:1477918456:load-test-magento2-bootstrap:1477918736
+Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228
+BEGIN:1477919596:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:01
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:09
+Product EAV index has been rebuilt successfully in 00:02:29
+Product Flat Data index has been rebuilt successfully in 00:00:22
+END:1477919596:load-test-magento2-bootstrap:1477919851
+BEGIN:1477919911:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:05
+Product EAV index has been rebuilt successfully in 00:02:22
+Product Flat Data index has been rebuilt successfully in 00:00:21
+END:1477919911:load-test-magento2-bootstrap:1477920160
+BEGIN:1477920220:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+END:1477920220:load-test-magento2-bootstrap:1477920232
+Stock indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477921113:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:07
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:03:02
+Product Flat Data index has been rebuilt successfully in 00:00:24
+END:1477921113:load-test-magento2-bootstrap:1477921412
+BEGIN:1477921472:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:09
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:02:56
+END:1477921472:load-test-magento2-bootstrap:1477921753
+Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228
+BEGIN:1477922613:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:03
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:03:18
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477922613:load-test-magento2-bootstrap:1477922911
+BEGIN:1477922971:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:05
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:07
+Product EAV index has been rebuilt successfully in 00:03:07
+END:1477922971:load-test-magento2-bootstrap:1477923252
+Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228
+BEGIN:1477923862:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:01
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:04
+Product EAV index has been rebuilt successfully in 00:02:15
+Product Flat Data index has been rebuilt successfully in 00:00:19
+END:1477923862:load-test-magento2-bootstrap:1477924097
+BEGIN:1477924157:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:02:07
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477924157:load-test-magento2-bootstrap:1477924389
+BEGIN:1477924449:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:08
+END:1477924449:load-test-magento2-bootstrap:1477924511
+Product Price indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477925131:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:05
+Product EAV index has been rebuilt successfully in 00:02:38
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477925131:load-test-magento2-bootstrap:1477925392
+BEGIN:1477925452:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:08
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:36
+Product Flat Data index has been rebuilt successfully in 00:00:19
+END:1477925452:load-test-magento2-bootstrap:1477925725
+BEGIN:1477926402:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:51
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477926402:load-test-magento2-bootstrap:1477926678
+BEGIN:1477926738:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:12
+Product EAV index has been rebuilt successfully in 00:02:57
+Product Flat Data index has been rebuilt successfully in 00:00:13
+END:1477926738:load-test-magento2-bootstrap:1477927030
+BEGIN:1477927876:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:01
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:02:16
+Product Flat Data index has been rebuilt successfully in 00:00:20
+END:1477927876:load-test-magento2-bootstrap:1477928113
+BEGIN:1477928173:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:11
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477928173:load-test-magento2-bootstrap:1477928411
+BEGIN:1477928471:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:08
+END:1477928471:load-test-magento2-bootstrap:1477928514
+Product Price indexer process unknown error:
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+BEGIN:1477929374:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:03
+Product EAV index has been rebuilt successfully in 00:02:37
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477929374:load-test-magento2-bootstrap:1477929631
+BEGIN:1477929691:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:09
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:32
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477929691:load-test-magento2-bootstrap:1477929957
+BEGIN:1477930883:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:03:02
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477930883:load-test-magento2-bootstrap:1477931169
+BEGIN:1477931229:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:10
+Product Price index has been rebuilt successfully in 00:01:11
+Product EAV index has been rebuilt successfully in 00:02:52
+Product Flat Data index has been rebuilt successfully in 00:00:12
+END:1477931229:load-test-magento2-bootstrap:1477931515
+BEGIN:1477932131:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:01
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:05
+Product EAV index has been rebuilt successfully in 00:02:14
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477932131:load-test-magento2-bootstrap:1477932363
+BEGIN:1477932423:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:03
+Product Price index has been rebuilt successfully in 00:00:43
+Product EAV index has been rebuilt successfully in 00:00:49
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477932423:load-test-magento2-bootstrap:1477932546
+BEGIN:1477932606:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:40
+Product EAV index has been rebuilt successfully in 00:00:48
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477932606:load-test-magento2-bootstrap:1477932724
+BEGIN:1477933401:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:08
+Product Price index has been rebuilt successfully in 00:01:10
+Product EAV index has been rebuilt successfully in 00:02:33
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477933401:load-test-magento2-bootstrap:1477933665
+BEGIN:1477933725:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:44
+Product EAV index has been rebuilt successfully in 00:00:47
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477933725:load-test-magento2-bootstrap:1477933857
+BEGIN:1477933917:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:39
+Product EAV index has been rebuilt successfully in 00:00:48
+END:1477933917:load-test-magento2-bootstrap:1477934035
+Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228
+BEGIN:1477934665:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:03
+Product Price index has been rebuilt successfully in 00:01:06
+Product EAV index has been rebuilt successfully in 00:02:53
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477934665:load-test-magento2-bootstrap:1477934938
+BEGIN:1477934998:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:07
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:45
+Product EAV index has been rebuilt successfully in 00:00:48
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477934998:load-test-magento2-bootstrap:1477935132
+BEGIN:1477935192:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:06
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:47
+Product EAV index has been rebuilt successfully in 00:00:50
+END:1477935192:load-test-magento2-bootstrap:1477935314
+Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228
+BEGIN:1477936174:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:01
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:15
+Product Flat Data index has been rebuilt successfully in 00:00:18
+END:1477936174:load-test-magento2-bootstrap:1477936411
+BEGIN:1477936471:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:46
+Product EAV index has been rebuilt successfully in 00:00:49
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477936471:load-test-magento2-bootstrap:1477936599
+BEGIN:1477936659:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:02
+Product Categories index has been rebuilt successfully in 00:00:02
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:47
+Product EAV index has been rebuilt successfully in 00:00:50
+Product Flat Data index has been rebuilt successfully in 00:00:16
+END:1477936659:load-test-magento2-bootstrap:1477936787
+BEGIN:1477937683:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:04
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:06
+Product Price index has been rebuilt successfully in 00:01:08
+Product EAV index has been rebuilt successfully in 00:02:37
+Product Flat Data index has been rebuilt successfully in 00:00:17
+END:1477937683:load-test-magento2-bootstrap:1477937946
+BEGIN:1477938006:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:03
+Product Price index has been rebuilt successfully in 00:00:46
+Product EAV index has been rebuilt successfully in 00:00:51
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477938006:load-test-magento2-bootstrap:1477938143
+BEGIN:1477938203:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:07
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:45
+Product EAV index has been rebuilt successfully in 00:00:49
+END:1477938203:load-test-magento2-bootstrap:1477938329
+Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228
+BEGIN:1477939179:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:03
+Product Categories index has been rebuilt successfully in 00:00:03
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:01:05
+Product EAV index has been rebuilt successfully in 00:02:47
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477939179:load-test-magento2-bootstrap:1477939445
+BEGIN:1477939505:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:05
+Stock index has been rebuilt successfully in 00:00:05
+Product Price index has been rebuilt successfully in 00:00:46
+Product EAV index has been rebuilt successfully in 00:00:50
+Product Flat Data index has been rebuilt successfully in 00:00:15
+END:1477939505:load-test-magento2-bootstrap:1477939640
+BEGIN:1477939700:load-test-magento2-bootstrap
+Category Products index has been rebuilt successfully in 00:00:06
+Product Categories index has been rebuilt successfully in 00:00:04
+Stock index has been rebuilt successfully in 00:00:04
+Product Price index has been rebuilt successfully in 00:00:46
+Product EAV index has been rebuilt successfully in 00:00:54
+END:1477939700:load-test-magento2-bootstrap:1477939824
+Warning: PDOStatement::execute(): MySQL server has gone away in /data/web/load-test-magento2-bootstrap/magento/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 228

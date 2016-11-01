@@ -1,63 +1,63 @@
 {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 26595,
-        "ok": 26594,
+        "total": 26682,
+        "ok": 26681,
         "ko": 1
     },
     "minResponseTime": {
         "total": 1,
         "ok": 1,
-        "ko": 385
+        "ko": 577
     },
     "maxResponseTime": {
-        "total": 17920,
-        "ok": 17920,
-        "ko": 385
+        "total": 18240,
+        "ok": 18240,
+        "ko": 577
     },
     "meanResponseTime": {
-        "total": 237,
-        "ok": 237,
-        "ko": 385
+        "total": 236,
+        "ok": 236,
+        "ko": 577
     },
     "standardDeviation": {
-        "total": 431,
-        "ok": 431,
+        "total": 500,
+        "ok": 500,
         "ko": 0
     },
     "percentiles1": {
         "total": 6,
         "ok": 6,
-        "ko": 385
+        "ko": 577
     },
     "percentiles2": {
-        "total": 359,
-        "ok": 359,
-        "ko": 385
+        "total": 351,
+        "ok": 351,
+        "ko": 577
     },
     "percentiles3": {
-        "total": 982,
-        "ok": 982,
-        "ko": 385
+        "total": 938,
+        "ok": 938,
+        "ko": 577
     },
     "percentiles4": {
-        "total": 1410,
-        "ok": 1411,
-        "ko": 385
+        "total": 1376,
+        "ok": 1376,
+        "ko": 577
     },
     "group1": {
         "name": "t < 800 ms",
-        "count": 24379,
+        "count": 24633,
         "percentage": 92
     },
     "group2": {
         "name": "800 ms < t < 1200 ms",
-        "count": 1580,
+        "count": 1538,
         "percentage": 6
     },
     "group3": {
         "name": "t > 1200 ms",
-        "count": 635,
+        "count": 510,
         "percentage": 2
     },
     "group4": {
@@ -66,8 +66,8 @@
         "percentage": 0
     },
     "meanNumberOfRequestsPerSecond": {
-        "total": 41.75039246467818,
-        "ok": 41.748822605965465,
-        "ko": 0.0015698587127158557
+        "total": 42.41971383147854,
+        "ok": 42.4181240063593,
+        "ko": 0.001589825119236884
     }
 }

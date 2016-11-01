@@ -1,73 +1,73 @@
 {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 21019,
-        "ok": 20965,
-        "ko": 54
+        "total": 21340,
+        "ok": 21289,
+        "ko": 51
     },
     "minResponseTime": {
         "total": 1,
         "ok": 1,
-        "ko": 82
+        "ko": 200
     },
     "maxResponseTime": {
-        "total": 52137,
-        "ok": 50640,
-        "ko": 52137
+        "total": 51936,
+        "ok": 42286,
+        "ko": 51936
     },
     "meanResponseTime": {
-        "total": 357,
-        "ok": 271,
-        "ko": 33928
+        "total": 348,
+        "ok": 256,
+        "ko": 38765
     },
     "standardDeviation": {
-        "total": 2312,
-        "ok": 1002,
-        "ko": 23705
+        "total": 2361,
+        "ok": 983,
+        "ko": 21229
     },
     "percentiles1": {
-        "total": 5,
+        "total": 6,
         "ok": 6,
-        "ko": 51067
+        "ko": 50973
     },
     "percentiles2": {
-        "total": 340,
-        "ok": 338,
-        "ko": 51493
+        "total": 321,
+        "ok": 319,
+        "ko": 51375
     },
     "percentiles3": {
-        "total": 1136,
-        "ok": 1123,
-        "ko": 51926
+        "total": 1046,
+        "ok": 1032,
+        "ko": 51719
     },
     "percentiles4": {
-        "total": 1720,
-        "ok": 1655,
-        "ko": 52087
+        "total": 1694,
+        "ok": 1579,
+        "ko": 51888
     },
     "group1": {
         "name": "t < 800 ms",
-        "count": 19015,
-        "percentage": 90
+        "count": 19554,
+        "percentage": 92
     },
     "group2": {
         "name": "800 ms < t < 1200 ms",
-        "count": 1102,
+        "count": 1110,
         "percentage": 5
     },
     "group3": {
         "name": "t > 1200 ms",
-        "count": 848,
-        "percentage": 4
+        "count": 625,
+        "percentage": 3
     },
     "group4": {
         "name": "failed",
-        "count": 54,
+        "count": 51,
         "percentage": 0
     },
     "meanNumberOfRequestsPerSecond": {
-        "total": 33.41653418124007,
-        "ok": 33.330683624801274,
-        "ko": 0.08585055643879173
+        "total": 33.9268680445151,
+        "ok": 33.84578696343402,
+        "ko": 0.08108108108108109
     }
 }
